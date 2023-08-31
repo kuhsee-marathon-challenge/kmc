@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2023-08-31 Thu 17:08 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kuhsee Marathon Challenge</title>
+<meta name="author" content="Dieter Schaab" />
+<meta name="description" content="Kuhsee Marathon Challenge" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" type="text/css" href="css/org.css" />
+</head>
+<body>
+<div id="content" class="content">
+<header>
+<h1 class="title">Kuhsee Marathon Challenge</h1>
+</header>
+<div id="outline-container-org857234d" class="outline-2">
+<h2 id="org857234d"><span class="section-number-2">1.</span> Regeln</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Die grundlegenden Ideen der Kuhseemarathonchallenge sind:
+</p>
+<ul class="org-ul">
+<li>es gibt keine Starterliste,</li>
+<li>es gibt kein Startgeld,</li>
+<li>es gibt keinen ersten und keinen letzten Läufer,</li>
+<li>es gibt keine Cut Offs und kein DNFs.</li>
+</ul>
+
+<p>
+Jeder kann zum Start kommen, jeder kann probieren die 18 Runden zu meistern.
+Und wenn es auch <i>nur</i> 9 Runden sind, soll keiner enttäuscht sein.
+Die Möglichkeit die wunderbaren (Nichtläufer sagen <i>die Verrückten</i>) Menschen kennenzulernen,
+neben einem Läufer zu laufen, der schon mehrere Marathons gelaufen ist oder neben einem Marathondebütant,
+nette Gespräche zu führen, zusammen die Tiefs und die Hochs zu erleben – ist einfach unbezahlbar.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgbec6a71" class="outline-2">
+<h2 id="orgbec6a71"><span class="section-number-2">2.</span> Ausschreibung 5. KMC</h2>
+<div class="outline-text-2" id="text-2">
+<ol class="org-ol">
+<li>Der KMC Start ist am 11.12.2022 um 9:00 am <a href="https://goo.gl/maps/nKrksRz24LMGqmUC6">Imbiskiosk bei den Tischtennisplatten</a>.</li>
+<li>Ein Parkplatz (Zufahrt über die Mittenwalder Str.) ist kostenlos und in unmittelbarer Nähe zum Kiosk (100 Meter) vorhanden.</li>
+<li>KMC ist gefinisht, wenn man volle 18 Runden um den Kuhsee gelaufen ist.
+Eine Runde ist ca. 2,3 km lang und man läuft insgesamt ca. 43,5 km. Die 42 km Marke ist kein Finish und liegt sowieso auf der anderen Seite des Sees.</li>
+<li>Die Läufer, die früher oder später fertig sind und keine Verknüpfung zu meinem Profil auf Strava oder Garmin haben,
+bitte ich, mir ein Link oder ein Screenshot von dem Ergebnis zu schicken.</li>
+<li>Es gibt für alle Finisher, wie jedes Jahr, eine besondere Medaille.
+Die Kosten und das Aussehen der Medaille werden nach dem Lauf bekannt gegeben (bisher zw. 5 € und 10 €).</li>
+<li>Bei KMC ist Eigenverpflegung angesagt.
+Ein Biertisch zum Abstellen des Proviants wird organisiert.
+Ein Laufrucksack ist auch eine gute Alternative.</li>
+<li>Nach dem Start bilden sich auf natürliche Weise viele Laufgrüppchen.
+Achtet bitte dabei, dass wir den Spaziergängern möglichst wenig Kummer bereiten.
+Die Augschburga sind ja ganz nett, aber die Grimmigen kommen auch öfter vor ;-)</li>
+<li>Es sind insgesamt 3 öffentliche Toiletten auf der Strecke vorhanden, wobei mindestens eine (bei der Wasserwacht) sicher auch im Winter geöffnet bleibt.</li>
+<li>Bitte nehmt genug warme Sachen für "nach dem Lauf" mit. Erfahrungsgemäß haben wir kühleres Wetter bei KMC ;-)</li>
+<li>Ich versuche dieses Jahr die KMC für 100 Marathon Club zählbar zu machen.
+Dafür werde ich digitale Urkunden gestalten und eine Finisherliste auf der KMC Seite bei Facebook veröffentlichen.</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org3a45e5a" class="outline-2">
+<h2 id="org3a45e5a"><span class="section-number-2">3.</span> Geschichte</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-orge0e1e03" class="outline-3">
+<h3 id="orge0e1e03"><span class="section-number-3">3.1.</span> Der 5. KMC</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+<a href="images/medals/2022.jpg" alt="Medaille 2022" title="Medaille 2022" width="200px" style="float:right"><img src="images/medals/2022.jpg" alt="Medaille 2022" title="Medaille 2022" width="200px" /></a>
+Die fünfte Edition der KMC am 11.12.2022 war wieder ein Erfolg: 1 Finisherin + 14 Finisher!
+</p>
+
+<p>
+Ein weiteres Highlight der Challenge: Fabian, Peter und Michael haben KMC zu ihrem ersten Marathon gewählt und souverän abgeschlossen!
+</p>
+
+<p>
+Dieses Jahr in Absprache mit 100 Marathon Club, wurde die KMC in die offizielle Liste der anerkannten Marathons aufgenommen.
+Also, Marathonsammler sind willkommen!
+</p>
+
+<p>
+Das sind unerwartete und sehr erfreuliche Entwicklungen des Projekts KMC.
+</p>
+
+<p>
+Hiermit möchte ich JEDEM und JEDER Danke sagen: Ihr seid unglaublich und Ihr macht diesen Lauf zu etwas Besonderem!
+</p>
+
+<p>
+Dank Willfried Matzke haben wir einen kleinen, aber feinen Artikel in der #AZ, so dass viele Spaziergänger uns entgegen gelächelt und gefragt haben, ob wir "<i>die Verrückten sind, die 18 Runden rennen wollen</i>". Ich freue mich auf sein Abschlussbericht in #AZ und "Sportinaugsburg"!
+</p>
+
+<p>
+Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen über neuen Ideen und Vorschläge für die Challenge. Was meint Ihr, was könnte die KMC noch besser und interessanter machen?
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfd3c6bc" class="outline-3">
+<h3 id="orgfd3c6bc"><span class="section-number-3">3.2.</span> Medaillenfotos der älteren KMC</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+<a href="images/medals/2018.jpg" alt="Medaille 2018" title="Medaille 2018" width="200px"><img src="images/medals/2018.jpg" alt="Medaille 2018" title="Medaille 2018" width="200px" /></a> <a href="images/medals/2019.jpg" alt="Medaille 2019" title="Medaille 2019" width="200px"><img src="images/medals/2019.jpg" alt="Medaille 2019" title="Medaille 2019" width="200px" /></a> <a href="images/medals/2020.jpg" alt="Medaille 2020" title="Medaille 2020" width="200px"><img src="images/medals/2020.jpg" alt="Medaille 2020" title="Medaille 2020" width="200px" /></a> <a href="images/medals/2021.jpg" alt="Medaille 2021" title="Medaille 2021" width="200px"><img src="images/medals/2021.jpg" alt="Medaille 2021" title="Medaille 2021" width="200px" /></a>
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org4b185ff" class="outline-2">
+<h2 id="org4b185ff"><span class="section-number-2">4.</span> Finischer</h2>
+<div class="outline-text-2" id="text-4">
+<table width="100%" frame="border" rules="all" border="1" class="styledtablelastrow">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-center" />
+
+<col  class="org-center" />
+
+<col  class="org-center" />
+
+<col  class="org-center" />
+
+<col  class="org-center" />
+
+<col  class="org-center" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Nachname</th>
+<th scope="col" class="org-left">Vorname</th>
+<th scope="col" class="org-center">Summe</th>
+<th scope="col" class="org-center">2018</th>
+<th scope="col" class="org-center">2019</th>
+<th scope="col" class="org-center">2020</th>
+<th scope="col" class="org-center">2021</th>
+<th scope="col" class="org-center">2022</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Berger</td>
+<td class="org-left">Karl-Heinz</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Bischoff</td>
+<td class="org-left">Rainer</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Einmüller</td>
+<td class="org-left">Peter</td>
+<td class="org-center">2</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+<td class="org-center">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Ecker</td>
+<td class="org-left">Fabian</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Grändorf</td>
+<td class="org-left">Dennis</td>
+<td class="org-center">2</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Grashei</td>
+<td class="org-left">Alexandra</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Hellmann</td>
+<td class="org-left">Carsten</td>
+<td class="org-center">3</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+<td class="org-center">1</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Joos</td>
+<td class="org-left">Stehpan</td>
+<td class="org-center">3</td>
+<td class="org-center">1</td>
+<td class="org-center">1</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Kaleja</td>
+<td class="org-left">Yvonne</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Kliem</td>
+<td class="org-left">Manfred</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Machel</td>
+<td class="org-left">Michael</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Magg</td>
+<td class="org-left">Christoph</td>
+<td class="org-center">4</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+<td class="org-center">1</td>
+<td class="org-center">1</td>
+<td class="org-center">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Mai</td>
+<td class="org-left">Sybille</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Mielke</td>
+<td class="org-left">Marian</td>
+<td class="org-center">3</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+<td class="org-center">1</td>
+<td class="org-center">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Penning</td>
+<td class="org-left">Claudia</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Roland</td>
+<td class="org-left">Frank</td>
+<td class="org-center">3</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+<td class="org-center">1</td>
+<td class="org-center">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Rupprecht</td>
+<td class="org-left">Michael</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Safronov</td>
+<td class="org-left">Kirill</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Schaab</td>
+<td class="org-left">Dieter</td>
+<td class="org-center">5</td>
+<td class="org-center">1</td>
+<td class="org-center">1</td>
+<td class="org-center">1</td>
+<td class="org-center">1</td>
+<td class="org-center">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Schneider</td>
+<td class="org-left">Stefan</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Utz</td>
+<td class="org-left">Christian</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Vogel</td>
+<td class="org-left">Simon</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Volk</td>
+<td class="org-left">Peter</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+</tr>
+
+<tr>
+<td class="org-left">von Hofer</td>
+<td class="org-left">Moritz</td>
+<td class="org-center">2</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Waldow</td>
+<td class="org-left">Maximilian</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Winkelmann</td>
+<td class="org-left">Sven</td>
+<td class="org-center">2</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">&#xa0;</td>
+<td class="org-center">1</td>
+<td class="org-center">1</td>
+<td class="org-center">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-center">45</td>
+<td class="org-center">3</td>
+<td class="org-center">5</td>
+<td class="org-center">12</td>
+<td class="org-center">10</td>
+<td class="org-center">15</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Dieter Schaab</p>
+<p class="date">Created: 2023-08-31 Thu 17:08</p>
+</div>
+</body>
+</html>
