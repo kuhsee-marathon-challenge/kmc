@@ -4,8 +4,12 @@
 #+EMAIL:
 #+DESCRIPTION: Kuhsee Marathon Challenge
 
+#+begin_comment
+(org-export-to-file 'html "../gh-pages/index.html")
+#+end_comment
+
 * Regeln 
-Die grundlegenden Ideen der Kuhseemarathonchallenge sind:
+Die grundlegenden Ideen der Kuhsee Marathon Challenge sind:
 - es gibt keine Starterliste,
 - es gibt kein Startgeld,
 - es gibt keinen ersten und keinen letzten Läufer,
@@ -16,6 +20,14 @@ Und wenn es auch /nur/ 9 Runden sind, soll keiner enttäuscht sein.
 Die Möglichkeit die wunderbaren (Nichtläufer sagen /die Verrückten/) Menschen kennenzulernen,
 neben einem Läufer zu laufen, der schon mehrere Marathons gelaufen ist oder neben einem Marathondebütant,
 nette Gespräche zu führen, zusammen die Tiefs und die Hochs zu erleben – ist einfach unbezahlbar.
+
+* Save The Day (6. KMC)
+Der KMC geht in die sechste Runde! Am 10.12.2023!
+
+Merkt auch den Tag schon mal vor und seid dabei, wenn wir gemeinsam den Kuhsee umrunden @@html:&#127939;&#x1f60a;@@.
+
+#+ATTR_HTML: :width 50%
+[[file:images/IMG-20221211-WA0004_x.jpeg]]
 
 * Ausschreibung 5. KMC
 1. Der KMC Start ist am 11.12.2022 um 9:00 am [[https://goo.gl/maps/nKrksRz24LMGqmUC6][Imbiskiosk bei den Tischtennisplatten]].
@@ -31,9 +43,9 @@ nette Gespräche zu führen, zusammen die Tiefs und die Hochs zu erleben – ist
    Ein Laufrucksack ist auch eine gute Alternative.
 7. Nach dem Start bilden sich auf natürliche Weise viele Laufgrüppchen.
    Achtet bitte dabei, dass wir den Spaziergängern möglichst wenig Kummer bereiten.
-   Die Augschburga sind ja ganz nett, aber die Grimmigen kommen auch öfter vor ;-)
+   Die Augschburga sind ja ganz nett, aber die Grimmigen kommen auch öfter vor @@html:&#128521;@@
 8. Es sind insgesamt 3 öffentliche Toiletten auf der Strecke vorhanden, wobei mindestens eine (bei der Wasserwacht) sicher auch im Winter geöffnet bleibt.
-9. Bitte nehmt genug warme Sachen für "nach dem Lauf" mit. Erfahrungsgemäß haben wir kühleres Wetter bei KMC ;-)
+9. Bitte nehmt genug warme Sachen für "nach dem Lauf" mit. Erfahrungsgemäß haben wir kühleres Wetter bei KMC @@html:&#128521;@@
 10. Ich versuche dieses Jahr die KMC für 100 Marathon Club zählbar zu machen.
     Dafür werde ich digitale Urkunden gestalten und eine Finisherliste auf der KMC Seite bei Facebook veröffentlichen.
 
@@ -51,7 +63,7 @@ Das sind unerwartete und sehr erfreuliche Entwicklungen des Projekts KMC.
 
 Hiermit möchte ich JEDEM und JEDER Danke sagen: Ihr seid unglaublich und Ihr macht diesen Lauf zu etwas Besonderem!
 
-Dank Willfried Matzke haben wir einen kleinen, aber feinen Artikel in der #AZ, so dass viele Spaziergänger uns entgegen gelächelt und gefragt haben, ob wir "/die Verrückten sind, die 18 Runden rennen wollen/". Ich freue mich auf sein Abschlussbericht in #AZ und "Sportinaugsburg"!
+Dank Willfried Matzke haben wir einen kleinen, aber feinen Artikel in der #AZ, so dass viele Spaziergänger uns entgegen gelächelt und gefragt haben, ob wir "/die Verrückten sind, die 18 Runden rennen wollen/". Ich freue mich auf sein Abschlussbericht in #AZ und [[https://sport-in-augsburg.de/sportnachrichten/18-runden-um-den-kuhsee-bei-kaelte-schnee-und-eis][Sport in Augsburg]]!
 
 Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen über neuen Ideen und Vorschläge für die Challenge. Was meint Ihr, was könnte die KMC noch besser und interessanter machen?
 
@@ -99,7 +111,7 @@ Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen üb
 #+tblfm: @>$4=vsum(@<<<..@>>)::@>$5=vsum(@<<<..@>>)::@>$6=vsum(@<<<..@>>)::@>$7=vsum(@<<<..@>>)::@>$8=vsum(@<<<..@>>)::@<<<$3..@>>$3=vsum($4..$>)
 
 * Settings                                                             :ARCHIVE:
-#+OPTIONS:  H:3 num:t toc:nil \n:nil @:t ::t |:t ^:{} -:t f:t *:t TeX:t LaTeX:t skip:nil d:(HIDE) tags:not-in-toc
+#+OPTIONS:  H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:{} -:t f:t *:t TeX:t LaTeX:t skip:nil d:(HIDE) tags:not-in-toc
 #+OPTIONS:  author:t creator:nil timestamp:t email:nil
 #+OPTIONS:  arch:nil
 #+OPTIONS:  html5-fancy:t
