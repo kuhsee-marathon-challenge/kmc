@@ -8,6 +8,29 @@
 (org-export-to-file 'html "../gh-pages/index.html")
 #+end_comment
 
+#+begin_comment
+Countdown creation url: logwork.com/countdown-timer
+Colors:
+- Background #336699
+- Digits Color: #ffffff
+- Text Color: #bbbbbb
+- Time Units Color: #bbbbbb
+#+end_comment
+#+BEGIN_EXPORT html
+<script src="https://cdn.logwork.com/widget/countdown.js"></script>
+<a
+  href="https://logwork.com/countdown-1avz"
+  class="countdown-timer"
+  data-style="flip2"
+  data-timezone="Europe/Berlin"
+  data-language="de"
+  data-textcolor="#bbbbbb"
+  data-date="2023-12-10 10:00"
+  data-background="#336699"
+  data-digitscolor="#ffffff"
+  data-unitscolor="#bbbbbb">6. KMC</a>
+#+END_EXPORT
+
 * Regeln 
 Die grundlegenden Ideen der Kuhsee Marathon Challenge sind:
 - es gibt keine Starterliste,
@@ -76,36 +99,36 @@ Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen üb
 #+ATTR_HTML: :rules all
 #+ATTR_HTML: :frame border
 #+ATTR_HTML: :width 100%
-| <l>        | <l>        |  <c>  | <c>  | <c>  | <c>  | <c>  | <c>  |
-| Nachname   | Vorname    | Summe | 2018 | 2019 | 2020 | 2021 | 2022 |
-|------------+------------+-------+------+------+------+------+------|
-| Berger     | Karl-Heinz |   1   |      |      |      |      |  1   |
-| Bischoff   | Rainer     |   1   |      |      |  1   |      |      |
-| Einmüller  | Peter      |   2   |      |      |      |  1   |  1   |
-| Ecker      | Fabian     |   1   |      |      |      |      |  1   |
-| Grändorf   | Dennis     |   2   |  1   |      |  1   |      |      |
-| Grashei    | Alexandra  |   1   |      |      |      |  1   |      |
-| Hellmann   | Carsten    |   3   |      |  1   |  1   |  1   |      |
-| Joos       | Stehpan    |   3   |  1   |  1   |  1   |      |      |
-| Kaleja     | Yvonne     |   1   |      |      |      |      |  1   |
-| Kliem      | Manfred    |   1   |      |      |  1   |      |      |
-| Machel     | Michael    |   1   |      |      |      |      |  1   |
-| Magg       | Christoph  |   4   |      |  1   |  1   |  1   |  1   |
-| Mai        | Sybille    |   1   |      |      |  1   |      |      |
-| Mielke     | Marian     |   3   |      |      |  1   |  1   |  1   |
-| Penning    | Claudia    |   1   |      |      |      |  1   |      |
-| Roland     | Frank      |   3   |      |      |  1   |  1   |  1   |
-| Rupprecht  | Michael    |   1   |      |      |      |      |  1   |
-| Safronov   | Kirill     |   1   |      |      |      |      |  1   |
-| Schaab     | Dieter     |   5   |  1   |  1   |  1   |  1   |  1   |
-| Schneider  | Stefan     |   1   |      |      |      |      |  1   |
-| Utz        | Christian  |   1   |      |      |      |  1   |      |
-| Vogel      | Simon      |   1   |      |      |      |      |  1   |
-| Volk       | Peter      |   1   |      |      |      |      |  1   |
-| von Hofer  | Moritz     |   2   |      |  1   |  1   |      |      |
-| Waldow     | Maximilian |   1   |      |      |      |      |  1   |
-| Winkelmann | Sven       |   2   |      |      |  1   |  1   |      |
-|            |            |  45   |  3   |  5   |  12  |  10  |  15  |
+| <l>        | <l>        |  <c>  | <c>  | <c>  | <c>  | <c>  | <c>  | <c>  |
+| Nachname   | Vorname    | Summe | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 |
+|------------+------------+-------+------+------+------+------+------+------|
+| Berger     | Karl-Heinz |   1   |      |      |      |      |  1   |      |
+| Bischoff   | Rainer     |   1   |      |      |  1   |      |      |      |
+| Einmüller  | Peter      |   2   |      |      |      |  1   |  1   |      |
+| Ecker      | Fabian     |   1   |      |      |      |      |  1   |      |
+| Grändorf   | Dennis     |   2   |  1   |      |  1   |      |      |      |
+| Grashei    | Alexandra  |   1   |      |      |      |  1   |      |      |
+| Hellmann   | Carsten    |   3   |      |  1   |  1   |  1   |      |      |
+| Joos       | Stehpan    |   3   |  1   |  1   |  1   |      |      |      |
+| Kaleja     | Yvonne     |   1   |      |      |      |      |  1   |      |
+| Kliem      | Manfred    |   1   |      |      |  1   |      |      |      |
+| Machel     | Michael    |   1   |      |      |      |      |  1   |      |
+| Magg       | Christoph  |   4   |      |  1   |  1   |  1   |  1   |      |
+| Mai        | Sybille    |   1   |      |      |  1   |      |      |      |
+| Mielke     | Marian     |   3   |      |      |  1   |  1   |  1   |      |
+| Penning    | Claudia    |   1   |      |      |      |  1   |      |      |
+| Roland     | Frank      |   3   |      |      |  1   |  1   |  1   |      |
+| Rupprecht  | Michael    |   1   |      |      |      |      |  1   |      |
+| Safronov   | Kirill     |   1   |      |      |      |      |  1   |      |
+| Schaab     | Dieter     |   5   |  1   |  1   |  1   |  1   |  1   |      |
+| Schneider  | Stefan     |   1   |      |      |      |      |  1   |      |
+| Utz        | Christian  |   1   |      |      |      |  1   |      |      |
+| Vogel      | Simon      |   1   |      |      |      |      |  1   |      |
+| Volk       | Peter      |   1   |      |      |      |      |  1   |      |
+| von Hofer  | Moritz     |   2   |      |  1   |  1   |      |      |      |
+| Waldow     | Maximilian |   1   |      |      |      |      |  1   |      |
+| Winkelmann | Sven       |   2   |      |      |  1   |  1   |      |      |
+|            |            |  45   |  3   |  5   |  12  |  10  |  15  |      |
 #+tblfm: @>$3..@>$>=vsum(@<<<..@>>)::@<<<$3..@>>$3=vsum($4..$>)
 
 * Settings                                                             :ARCHIVE:
