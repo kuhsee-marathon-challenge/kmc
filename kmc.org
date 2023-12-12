@@ -90,7 +90,7 @@ nette Gespräche zu führen, zusammen die Tiefs und die Hochs zu erleben – ist
 {{{medalr(2023)}}}
 Die sechste Edition der KMC am 10.12.2023... ein Großereignis der Superlative, stand unter dem Motto:
 #+begin_center
-*Ob 18, 42 oder 100 – es ist nur eine Zahl im Kopf* [fn:: Ein "berühmter Spruch" von Grändorf Dennis, der KMC mitgegründet und schon in 2018 und 2020 auch gefinished hat.]!
+*Ob 18, 42 oder 100 – es ist nur eine Zahl im Kopf* [fn:: Ein "berühmter Spruch" von Grändorf Dennis, der KMC mitgegründet und 2018 und 2020 auch gefinished hat.]!
 #+end_center
 
 Was ja alle schon ahnten, Dieter konnte erfolgreich seinen hundertsten Marathon laufen und ist nun offiziell stolzes Vollmitglied im [[https://www.100-marathon-club.de/][100 Marathon Club Deutschland e.V.]].
@@ -124,12 +124,14 @@ Mit einem Sprung ins Wasser haben sich Yvonne Kaleja und Frank Roland abgekühlt
 
 Dieser Lauf ist mit insgesamt 25 Finishern, davon fünf Frauen, mit Abstand der teilnehmerstärkste Lauf bisher.
 Das Publikum war stark wie nie und hat mit Ratschen, Kuhglocken @@html:&#128276;@@ läuten und Anfeuerungen für Stimmung gesorgt.
-Einen besonderen Dank an Peter Volk, der die Kuhglocke bereitgestellt und für zukünftige Veranstaltungen gespendet hat, an Simon Volk, für die Fackeln und den Pokal, an Yvonne Kalej, die das Zielband gestaltet hat, und an Stefan Joos, der für die Musik gesorgt hat.
+Einen besonderen Dank an Peter Volk, der die Kuhglocke bereitgestellt und für zukünftige Veranstaltungen gespendet hat, an Simon Volk, für die Fackeln und den Pokal, an Yvonne Kaleja, die das Zielband gestaltet hat, und an Stefan Joos, der für die Musik gesorgt hat.
 Ein großes Lob auch an jeden, der dabei war und mitgelaufen ist, egal wie viele Runden: Ihr habt super durchgehalten, auch wenn manche Stellen auf der Strecke vereist waren.
 
 #+begin_center
 {{{image_size(kmc6/runner.jfif, 800)}}}
 #+end_center
+
+Wer noch mehr erfahren möchte, Wilfried Matzke hat einen Artikel in [[https://sport-in-augsburg.de/sportnachrichten/18-runden-im-laufschritt-um-den-kuhsee][Sport in Augsburg]] verfasst.
 
 ** Der 5. KMC
 {{{medalr(2022)}}}
@@ -144,7 +146,7 @@ Das sind unerwartete und sehr erfreuliche Entwicklungen des Projekts KMC.
 
 Hiermit möchte ich JEDEM und JEDER Danke sagen: Ihr seid unglaublich und Ihr macht diesen Lauf zu etwas Besonderem!
 
-Dank Willfried Matzke haben wir einen kleinen, aber feinen Artikel in der #AZ, so dass viele Spaziergänger uns entgegen gelächelt und gefragt haben, ob wir "/die Verrückten sind, die 18 Runden rennen wollen/". Ich freue mich auf sein Abschlussbericht in #AZ und [[https://sport-in-augsburg.de/sportnachrichten/18-runden-um-den-kuhsee-bei-kaelte-schnee-und-eis][Sport in Augsburg]]!
+Dank Willfried Matzke haben wir einen kleinen, aber feinen Artikel in der #AZ, so dass viele Spaziergänger uns entgegen gelächelt und gefragt haben, ob wir "/die Verrückten sind, die 18 Runden rennen wollen/". Ich freue mich auf seinen Abschlussbericht in #AZ und [[https://sport-in-augsburg.de/sportnachrichten/18-runden-um-den-kuhsee-bei-kaelte-schnee-und-eis][Sport in Augsburg]]!
 
 Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen über neuen Ideen und Vorschläge für die Challenge. Was meint Ihr, was könnte die KMC noch besser und interessanter machen?
 
