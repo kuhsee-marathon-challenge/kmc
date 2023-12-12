@@ -99,87 +99,49 @@ Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen üb
 #+ATTR_HTML: :rules all
 #+ATTR_HTML: :frame border
 #+ATTR_HTML: :width 100%
-| <l>        | <l>        |  <c>  | <c>  | <c>  | <c>  | <c>  | <c>  | <c>  |
-| Nachname   | Vorname    | Summe | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 |
-|------------+------------+-------+------+------+------+------+------+------|
-| Berger     | Karl-Heinz |   1   |      |      |      |      |  1   |      |
-| Bischoff   | Rainer     |   1   |      |      |  1   |      |      |      |
-| Ecker      | Fabian     |   1   |      |      |      |      |  1   |      |
-| Einmüller  | Peter      |   2   |      |      |      |  1   |  1   |      |
-| Grashei    | Alexandra  |   1   |      |      |      |  1   |      |      |
-| Grändorf   | Dennis     |   2   |  1   |      |  1   |      |      |      |
-| Hellmann   | Carsten    |   3   |      |  1   |  1   |  1   |      |      |
-| Joos       | Stehpan    |   3   |  1   |  1   |  1   |      |      |      |
-| Kaleja     | Yvonne     |   1   |      |      |      |      |  1   |      |
-| Kliem      | Manfred    |   1   |      |      |  1   |      |      |      |
-| Machel     | Michael    |   1   |      |      |      |      |  1   |      |
-| Magg       | Christoph  |   4   |      |  1   |  1   |  1   |  1   |      |
-| Mai        | Sybille    |   1   |      |      |  1   |      |      |      |
-| Mielke     | Marian     |   3   |      |      |  1   |  1   |  1   |      |
-| Penning    | Claudia    |   1   |      |      |      |  1   |      |      |
-| Roland     | Frank      |   3   |      |      |  1   |  1   |  1   |      |
-| Rupprecht  | Michael    |   1   |      |      |      |      |  1   |      |
-| Safronov   | Kirill     |   1   |      |      |      |      |  1   |      |
-| Schaab     | Dieter     |   5   |  1   |  1   |  1   |  1   |  1   |      |
-| Schneider  | Stefan     |   1   |      |      |      |      |  1   |      |
-| Utz        | Christian  |   1   |      |      |      |  1   |      |      |
-| Vogel      | Simon      |   1   |      |      |      |      |  1   |      |
-| Volk       | Peter      |   1   |      |      |      |      |  1   |      |
-| von Hofer  | Moritz     |   2   |      |  1   |  1   |      |      |      |
-| Waldow     | Maximilian |   1   |      |      |      |      |  1   |      |
-| Winkelmann | Sven       |   2   |      |      |  1   |  1   |      |      |
-|            |            |  45   |  3   |  5   |  12  |  10  |  15  |  0   |
-#+tblfm: @>$3..@>$>=vsum(@<<<..@>>)::@<<<$3..@>>$3=vsum($4..$>)
-
-#+begin_comment
 | <l>          | <l>        |  <c>  | <c>  | <c>  | <c>  | <c>  | <c>  | <c>  |
 | Nachname     | Vorname    | Summe | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 |
 |--------------+------------+-------+------+------+------+------+------+------|
-| Bastian      | Bastian    |   1   |      |      |      |      |      |  1   |
 | Berger       | Karl-Heinz |   2   |      |      |      |      |  1   |  1   |
 | Bischoff     | Rainer     |   1   |      |      |  1   |      |      |      |
-| Brändle      | Claudia    |   1   |      |      |      |      |      |  1   |
-| Brändle      | Gerhard    |   1   |      |      |      |      |      |  1   |
 | Ecker        | Fabian     |   1   |      |      |      |      |  1   |      |
-| Einmüller    | Peter      |   2   |      |      |      |  1   |  1   |      |
-| Grashei      | Alexandra  |   1   |      |      |      |  1   |      |      |
-| Greppmeir    | Andreas    |   1   |      |      |      |      |      |  1   |
+| Einmüller    | Peter      |   3   |      |      |      |  1   |  1   |  1   |
+| Gamperl      | Elisabeth  |   1   |      |      |      |      |      |  1   |
+| Grashei      | Alexandra  |   2   |      |      |      |  1   |      |  1   |
 | Grändorf     | Dennis     |   2   |  1   |      |  1   |      |      |      |
 | Hellmann     | Carsten    |   3   |      |  1   |  1   |  1   |      |      |
-| Joos         | Stehpan    |   4   |  1   |  1   |  1   |      |      |  1   |
+| Jetzlsperger | Klaus      |   1   |      |      |      |      |      |  1   |
+| Joos         | Stehpan    |   3   |  1   |  1   |  1   |      |      |      |
 | Kaleja       | Yvonne     |   2   |      |      |      |      |  1   |  1   |
-| Kiefer       | Alexander  |   1   |      |      |      |      |      |  1   |
 | Kliem        | Manfred    |   1   |      |      |  1   |      |      |      |
-| Laube        | André      |   1   |      |      |      |      |      |  1   |
-| Löw          | Andrea     |   0   |      |      |      |      |      |  0   |
-| Machel       | Michael    |   1   |      |      |      |      |  1   |      |
-| Magg         | Christoph  |   4   |      |  1   |  1   |  1   |  1   |      |
+| Klinger      | Thomas     |   1   |      |      |      |      |      |  1   |
+| Machel       | Michael    |   2   |      |      |      |      |  1   |  1   |
+| Magg         | Christoph  |   5   |      |  1   |  1   |  1   |  1   |  1   |
+| Mahnhard     | Bernie     |   1   |      |      |      |      |      |  1   |
 | Mai          | Sybille    |   1   |      |      |  1   |      |      |      |
+| Mayr         | Richard    |   1   |      |      |      |      |      |  1   |
 | Mielke       | Marian     |   3   |      |      |  1   |  1   |  1   |      |
-| Müller       | Tobias     |   0   |      |      |      |      |      |  0   |
+| Mittomayer   | Bastian    |   1   |      |      |      |      |      |  1   |
+| Nagl         | Melanie    |   1   |      |      |      |      |      |  1   |
 | Nashilevskiy | Alexander  |   1   |      |      |      |      |      |  1   |
+| Neumann      | Conni      |   1   |      |      |      |      |      |  1   |
 | Penning      | Claudia    |   1   |      |      |      |  1   |      |      |
+| Pitsch       | Udo        |   1   |      |      |      |      |      |  1   |
 | Roland       | Frank      |   4   |      |      |  1   |  1   |  1   |  1   |
-| Rupprecht    | Michael    |   1   |      |      |      |      |  1   |      |
-| Safronov     | Kirill     |   1   |      |      |      |      |  1   |      |
+| Rupprecht    | Michael    |   2   |      |      |      |      |  1   |  1   |
+| Safronov     | Kirill     |   2   |      |      |      |      |  1   |  1   |
 | Schaab       | Dieter     |   6   |  1   |  1   |  1   |  1   |  1   |  1   |
-| Schneider    | Stefan     |   1   |      |      |      |      |  1   |      |
-| Schramm      | Kati       |   0   |      |      |      |      |      |  0   |
-| Schäfer      | Iris       |   0   |      |      |      |      |      |  0   |
-| Si           | Sarah      |   1   |      |      |      |      |      |  1   |
-| Sämisch      | Mandy      |   1   |      |      |      |      |      |  1   |
+| Schneider    | Stefan     |   2   |      |      |      |      |  1   |  1   |
 | Turzynski    | Michael    |   1   |      |      |      |      |      |  1   |
-| Utz          | Christian  |   1   |      |      |      |  1   |      |      |
-| Veros        | Pan        |   1   |      |      |      |      |      |  1   |
-| Vogel        | Simon      |   1   |      |      |      |      |  1   |      |
+| Utz          | Christian  |   2   |      |      |      |  1   |      |  1   |
+| Vogel        | Simon      |   2   |      |      |      |      |  1   |  1   |
 | Volk         | Peter      |   1   |      |      |      |      |  1   |      |
-| von Hofer    | Moritz     |   2   |      |  1   |  1   |      |      |      |
-| von S        | Tino       |   1   |      |      |      |      |      |  1   |
 | Waldow       | Maximilian |   1   |      |      |      |      |  1   |      |
 | Winkelmann   | Sven       |   2   |      |      |  1   |  1   |      |      |
-|              |            |  62   |  3   |  5   |  12  |  10  |  15  |  17  |
-'#+tblfm: @>$3..@>$>=vsum(@<<<..@>>)::@<<<$3..@>>$3=vsum($4..$>)
-#+end_comment
+| Zischke      | Mathias    |   1   |      |      |      |      |      |  1   |
+| von Hofer    | Moritz     |   2   |      |  1   |  1   |      |      |      |
+|              |            |  70   |  3   |  5   |  12  |  10  |  15  |  25  |
+#+tblfm: @>$3..@>$>=vsum(@<<<..@>>)::@<<<$3..@>>$3=vsum($4..$>)
 
 * Settings                                                             :ARCHIVE:
 #+OPTIONS:  H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:{} -:t f:t *:t TeX:t LaTeX:t skip:nil d:(HIDE) tags:not-in-toc
