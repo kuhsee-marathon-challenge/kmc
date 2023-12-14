@@ -114,7 +114,7 @@ An dieser Stelle noch mal: Herzlichen Glückwunsch Dieter zu dieser phänomenale
 \\
 
 Das war natürlich noch längst nicht alles. Es haben sich auch weitere Berühmtheiten dazugesellt. {{{image_size_r(kmc6/michael-turzynski.jfif, 200)}}}
-So waren die lokalen Marathonlegenden Udo Pitsch, der schon [[https://statistik.d-u-v.org/getresultperson.php?runner=13878][118 bei DUV gelistete Ultras]] und über 285 Marathons lief, sowie Bernie Mahnhard ([[https://www.team-tomj.de/runner.htm#bernie][119 Marathons, 55 Ultras]]) und Charly Berger ([[https://www.team-tomj.de/runner.htm#charly][115 Marathons und 10 Ultras]]) mit dabei.
+So waren die lokalen Marathonlegenden Udo Pitsch, der schon [[https://statistik.d-u-v.org/getresultperson.php?runner=13878][118 bei DUV gelistete Ultras]] und über 285 Marathons lief, sowie Bernie Manhard ([[https://www.team-tomj.de/runner.htm#bernie][119 Marathons, 55 Ultras]]) und Charly Berger ([[https://www.team-tomj.de/runner.htm#charly][115 Marathons und 10 Ultras]]) mit dabei.
 Aber auch [[https://www.runwithviktor.de/][Viktor Reger]], der sich anschickt 365 Ultramarathon in einem Jahr zu laufen und es damit auf 18250 km bringen will, ist [[https://www.instagram.com/p/C0rqeaerzmk/][ein Stück mit uns gelaufen]].
 Und nicht zu vergessen Michael Turzynski aus Hannover, ein Mitbegründer des [[https://www.100-marathon-club.de/][100 Marathon Club Deutschland e.V.]] der sich das Ziel gesetzt hat 1000 Marathons zu laufen und beim 6. KMC seien 945-ten absolviert hat.
 
@@ -179,7 +179,7 @@ Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen üb
 | Klinger      | Thomas     |   2   |      |      |      |      |      |  1   |
 | Machel       | Michael    |   3   |      |      |      |      |  1   |  1   |
 | Magg         | Christoph  |   6   |      |  1   |  1   |  1   |  1   |  1   |
-| Mahnhard     | Bernie     |   2   |      |      |      |      |      |  1   |
+| Manhard      | Bernie     |   2   |      |      |      |      |      |  1   |
 | Mai          | Sybille    |   1   |      |      |  1   |      |      |      |
 | Mayr         | Richard    |   2   |      |      |      |      |      |  1   |
 | Mielke       | Marian     |   3   |      |      |  1   |  1   |  1   |      |
