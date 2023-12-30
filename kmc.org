@@ -133,6 +133,8 @@ Ein großes Lob auch an jeden, der dabei war und mitgelaufen ist, egal wie viele
 
 Wer noch mehr erfahren möchte, Wilfried Matzke hat einen Artikel in [[https://sport-in-augsburg.de/sportnachrichten/18-runden-im-laufschritt-um-den-kuhsee][Sport in Augsburg]] verfasst.
 
+[[file:certificates/kmc6/6_KMC_Urkunde_Frank_Roland.pdf][]]
+
 ** Der 5. KMC
 {{{medalr(2022)}}}
 Die fünfte Edition der KMC am 11.12.2022 war wieder ein Erfolg: 1 Finisherin + 14 Finisher!
@@ -161,49 +163,49 @@ Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen üb
 #+ATTR_HTML: :rules all
 #+ATTR_HTML: :frame border
 #+ATTR_HTML: :width 100%
-| <l>          | <l>        |  <c>  | <c>  | <c>  | <c>  | <c>  | <c>  | <c>  |
-| Nachname     | Vorname    | Summe | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 |
-|--------------+------------+-------+------+------+------+------+------+------|
-| Berger       | Karl-Heinz |   2   |      |      |      |      |  1   |  1   |
-| Bischoff     | Rainer     |   1   |      |      |  1   |      |      |      |
-| Ecker        | Fabian     |   1   |      |      |      |      |  1   |      |
-| Einmüller    | Peter      |   3   |      |      |      |  1   |  1   |  1   |
-| Gamperl      | Elisabeth  |   1   |      |      |      |      |      |  1   |
-| Grashei      | Alexandra  |   2   |      |      |      |  1   |      |  1   |
-| Grändorf     | Dennis     |   2   |  1   |      |  1   |      |      |      |
-| Hellmann     | Carsten    |   3   |      |  1   |  1   |  1   |      |      |
-| Jetzlsperger | Klaus      |   1   |      |      |      |      |      |  1   |
-| Joos         | Stehpan    |   3   |  1   |  1   |  1   |      |      |      |
-| Kaleja       | Yvonne     |   2   |      |      |      |      |  1   |  1   |
-| Kliem        | Manfred    |   1   |      |      |  1   |      |      |      |
-| Klinger      | Thomas     |   1   |      |      |      |      |      |  1   |
-| Machel       | Michael    |   2   |      |      |      |      |  1   |  1   |
-| Magg         | Christoph  |   5   |      |  1   |  1   |  1   |  1   |  1   |
-| Manhard      | Bernie     |   1   |      |      |      |      |      |  1   |
-| Mai          | Sybille    |   1   |      |      |  1   |      |      |      |
-| Mayr         | Richard    |   1   |      |      |      |      |      |  1   |
-| Mielke       | Marian     |   3   |      |      |  1   |  1   |  1   |      |
-| Mittomayer   | Bastian    |   1   |      |      |      |      |      |  1   |
-| Nagl         | Melanie    |   1   |      |      |      |      |      |  1   |
-| Nashilevskiy | Alexander  |   1   |      |      |      |      |      |  1   |
-| Neumann      | Conni      |   1   |      |      |      |      |      |  1   |
-| Penning      | Claudia    |   1   |      |      |      |  1   |      |      |
-| Pitsch       | Udo        |   1   |      |      |      |      |      |  1   |
-| Roland       | Frank      |   4   |      |      |  1   |  1   |  1   |  1   |
-| Rupprecht    | Michael    |   2   |      |      |      |      |  1   |  1   |
-| Safronov     | Kirill     |   2   |      |      |      |      |  1   |  1   |
-| Schaab       | Dieter     |   6   |  1   |  1   |  1   |  1   |  1   |  1   |
-| Schneider    | Stefan     |   2   |      |      |      |      |  1   |  1   |
-| Turzynski    | Michael    |   1   |      |      |      |      |      |  1   |
-| Utz          | Christian  |   2   |      |      |      |  1   |      |  1   |
-| Vogel        | Simon      |   2   |      |      |      |      |  1   |  1   |
-| Volk         | Peter      |   1   |      |      |      |      |  1   |      |
-| Waldow       | Maximilian |   1   |      |      |      |      |  1   |      |
-| Winkelmann   | Sven       |   2   |      |      |  1   |  1   |      |      |
-| Zischke      | Mathias    |   1   |      |      |      |      |      |  1   |
-| von Hofer    | Moritz     |   2   |      |  1   |  1   |      |      |      |
-|              |            |  70   |  3   |  5   |  12  |  10  |  15  |  25  |
-#+tblfm: @>$3..@>$>=vsum(@<<<..@>>)::@<<<$3..@>>$3=vsum($4..$>)
+| <l>          | <l>        |  <c>  | <c>  | <c>  | <c>  | <c>  | <c>  | <c>  |   <c>   |
+| Nachname     | Vorname    | Summe | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | Urkunde |
+|--------------+------------+-------+------+------+------+------+------+------+---------|
+| Berger       | Charly     |   2   |      |      |      |      |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Charly_Berger.pdf][2023]]   |
+| Bischoff     | Rainer     |   1   |      |      |  1   |      |      |      |         |
+| Ecker        | Fabian     |   1   |      |      |      |      |  1   |      |         |
+| Einmüller    | Peter      |   3   |      |      |      |  1   |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Peter_Einmüller.pdf][2023]]   |
+| Gamperl      | Elisabeth  |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Elisabeth_Gamperl.pdf][2023]]   |
+| Grashei      | Alexandra  |   2   |      |      |      |  1   |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Alexandra_Grashei.pdf][2023]]   |
+| Grändorf     | Dennis     |   2   |  1   |      |  1   |      |      |      |         |
+| Hellmann     | Carsten    |   3   |      |  1   |  1   |  1   |      |      |         |
+| Jetzlsperger | Klaus      |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Klaus_Jetzlsperger.pdf][2023]]   |
+| Joos         | Stehpan    |   3   |  1   |  1   |  1   |      |      |      |         |
+| Kaleja       | Yvonne     |   2   |      |      |      |      |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Yvonne_Kaleja.pdf][2023]]   |
+| Kliem        | Manfred    |   1   |      |      |  1   |      |      |      |         |
+| Klinger      | Thomas     |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Thomas_Klinger.pdf][2023]]   |
+| Machel       | Michael    |   2   |      |      |      |      |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Michael_Machel.pdf][2023]]   |
+| Magg         | Christoph  |   5   |      |  1   |  1   |  1   |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Christoph_Magg.pdf][2023]]   |
+| Manhard      | Bernie     |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Bernie_Manhard.pdf][2023]]   |
+| Mai          | Sybille    |   1   |      |      |  1   |      |      |      |         |
+| Mayr         | Richard    |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Richard_Mayr.pdf][2023]]   |
+| Mielke       | Marian     |   3   |      |      |  1   |  1   |  1   |      |         |
+| Mittomayer   | Bastian    |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Bastian_Mittomayer.pdf][2023]]   |
+| Nagl         | Melanie    |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Melanie_Nagl.pdf][2023]]   |
+| Naschilewski | Alexander  |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Alexander_Naschilewski.pdf][2023]]   |
+| Neumann      | Conni      |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Conni_Neumann.pdf][2023]]   |
+| Penning      | Claudia    |   1   |      |      |      |  1   |      |      |         |
+| Pitsch       | Udo        |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Udo_Pitsch.pdf][2023]]   |
+| Roland       | Frank      |   4   |      |      |  1   |  1   |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Frank_Roland.pdf][2023]]   |
+| Rupprecht    | Michael    |   2   |      |      |      |      |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Michael_Rupprecht.pdf][2023]]   |
+| Safronov     | Kirill     |   2   |      |      |      |      |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Kirill_Safronov.pdf][2023]]   |
+| Schaab       | Dieter     |   6   |  1   |  1   |  1   |  1   |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Dieter_Schaab.pdf][2023]]   |
+| Schneider    | Stefan     |   2   |      |      |      |      |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Stefan_Schneider.pdf][2023]]   |
+| Turzynski    | Michael    |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Michael_Turzynski.pdf][2023]]   |
+| Utz          | Christian  |   2   |      |      |      |  1   |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Christian_Utz.pdf][2023]]   |
+| Vogel        | Simon      |   2   |      |      |      |      |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Simon_Vogel.pdf][2023]]   |
+| Volk         | Peter      |   1   |      |      |      |      |  1   |      |         |
+| Waldow       | Maximilian |   1   |      |      |      |      |  1   |      |         |
+| Winkelmann   | Sven       |   2   |      |      |  1   |  1   |      |      |         |
+| Zischke      | Mathias    |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Mathias_Zischke.pdf][2023]]   |
+| von Hofer    | Moritz     |   2   |      |  1   |  1   |      |      |      |         |
+|              |            |  70   |  3   |  5   |  12  |  10  |  15  |  25  |         |
+#+tblfm: @>$3..@>$>>=vsum(@<<<..@>>)::@<<<$3..@>>$3=vsum($4..$>>)::@<<<$10..@>>$10='(if (> (length $9) 0) (string-replace " " "_" (format "[[file:certificates/kmc6/6_KMC_Urkunde_%s_%s.pdf][2023]]" $2 $1)) "")
 
 * Settings                                                             :ARCHIVE:
 #+OPTIONS:  H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:{} -:t f:t *:t TeX:t LaTeX:t skip:nil d:(HIDE) tags:not-in-toc
