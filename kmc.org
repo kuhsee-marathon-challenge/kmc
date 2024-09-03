@@ -25,8 +25,8 @@ Colors:
 - Text Color: #bbbbbb
 - Time Units Color: #bbbbbb
 #+end_comment
-#+begin_comment
-,#+BEGIN_EXPORT html
+
+#+BEGIN_EXPORT html
 <script src="https://cdn.logwork.com/widget/countdown.js"></script>
 <a
   href="https://logwork.com/countdown-1avz"
@@ -34,15 +34,14 @@ Colors:
   data-style="flip2"
   data-timezone="Europe/Berlin"
   data-language="de"
-  data-textcolor="#bbbbbb"
-  data-date="2023-12-10 10:00"
-  data-background="#336699"
-  data-digitscolor="#ffffff"
-  data-unitscolor="#bbbbbb">6. KMC</a>
-,#+END_EXPORT
-#+end_comment
+  data-textcolor="#5c5658"
+  data-date="2024-12-1 9:00"
+  data-background="#fece22"
+  data-digitscolor="#5c5658"
+  data-unitscolor="#5c5658">7. KMC</a>
+#+END_EXPORT
 
-* Regeln 
+* Regeln
 Die grundlegenden Ideen der Kuhsee Marathon Challenge sind:
 - es gibt keine Starterliste,
 - es gibt kein Startgeld,
@@ -55,35 +54,45 @@ Die Möglichkeit die wunderbaren (Nichtläufer sagen /die Verrückten/) Menschen
 neben einem Läufer zu laufen, der schon mehrere Marathons gelaufen ist oder neben einem Marathondebütant,
 nette Gespräche zu führen, zusammen die Tiefs und die Hochs zu erleben – ist einfach unbezahlbar.
 
-#+begin_comment
-,* Ausschreibung 6. KMC
+* Ausschreibung 7. KMC
 
-1. Start ist am 10.12.2023 um 9:00 am [[https://goo.gl/maps/nKrksRz24LMGqmUC6][Imbiskiosk bei den Tischtennisplatten]].
+1. Die 7. Ausgabe der legendären Kuhsee Marathon Challenge findet am 01.12.24 um 9:00 Uhr statt. Der Start ist am Kiosk "[[https://goo.gl/maps/nKrksRz24LMGqmUC6][Pier 3 am Kuhsee]]" bei den Tischtennisplatten.
 2. Ein Parkplatz (Zufahrt über die Mittenwalder Str.) ist kostenlos und in unmittelbarer Nähe zum Kiosk (100 Meter) vorhanden.
-3. Die KMC gilt als gefinished, wenn man volle 18 Runden um den Kuhsee gelaufen ist.
-   Eine Runde ist ca. 2,3 km lang und man läuft insgesamt ca. 43,5km.
+3. Das Orgateam bietet dieses Jahr die KMC-Anmeldung über race result unter https://my.raceresult.com/293217/registration an.
+   Die Anmeldung für die Läufer ist kostenlos.
+   Bei der Benutzung des Portals fallen jedoch pro Läufer entsprechende Gebühren an.
+   Aus diesem Grund ist die Teilnehmerzahl auf 50 begrenzt.
+   Läufer werden gebeten, sich nur dann anzumelden, wenn sie sicher bei KMC teilnehmen wollen oder können.
+   Falls die Teilnahme aus irgendwelchen Gründen nicht möglich ist, bitten wir darum, sich sofort abzumelden, damit die Plätze wieder frei werden.
+4. Die KMC ist gefinished, wenn man volle 18 Runden um den Kuhsee gelaufen ist.
+   Eine Runde ist ca. 2,4 km lang und man läuft insgesamt ca. 43,2km.
    Die 42 km Marke ist *kein* Finish und liegt sowieso auf der anderen Seite des Sees.
-4. Die Läufer, die früher oder später fertig sind und keine Verknüpfung zu meinem Profil auf Strava oder Garmin haben,
-   bitte ich, mir ein Link oder ein Screenshot von dem Ergebnis zu schicken.
-5. Es gibt für alle Finisher, wie jedes Jahr, eine besondere Medaille.
-   Die Kosten und das Aussehen der Medaille werden nach dem Lauf bekannt gegeben (bisher zw. 5 € und 10 €).
-6. Bei der KMC ist Eigenverpflegung angesagt.
-   Ein Tisch zum Abstellen des Proviants wird organisiert.
+5. Die Läufer, die früher oder später fertig sind bitten wir, einen Link oder ein Screenshot von dem Ergebnis an mailto:kuhsee.marathon.challenge@gmail.com zu schicken.
+6. Jedes Jahr wird für alle Finisher eine besondere Medaille angeboten.
+   Da die Anzahl der Finisher erst nach dem Lauf bekannt wird, werden die Medaillen erst danach produziert.
+   Wie es sich aber bereits im letzten Jahr bewährt hat, wird versucht für die auswärtigen Läufer eine begrenzte Anzahl der Medaillen vorzuproduzieren.
+   Die Augsburger bekommen die Medaillen beim nächsten gemeinsamen Lauf.
+   Die Kosten und das Aussehen der Medaille werden nach dem Lauf bekannt gegeben (eventuell zw. 12 € und 15 €).
+7. Bei der KMC ist Eigenverpflegung angesagt.
+   Ein Biertisch zum Abstellen des Proviants wird organisiert.
    Ein Laufrucksack ist auch eine gute Alternative.
-7. Nach dem Start bilden sich auf natürliche Weise viele Laufgrüppchen.
-   Achtet bitte dabei darauf, dass wir den Spaziergängern möglichst wenig Kummer bereiten.
-   Die Augschburga sind ja ganz nett, aber die Grimmigen kommen auch öfter vor @@html:&#128521;@@
-8. Es sind insgesamt 3 öffentliche Toiletten auf der Strecke vorhanden, wobei mindestens eine (bei der Wasserwacht) sicher auch im Winter geöffnet bleibt.
-9. Bitte nimmt genug warme Sachen für "nach dem Lauf" mit.
-   Erfahrungsgemäß haben wir kühleres Wetter bei der KMC @@html:&#128521;@@
-10. Seit 2022 wird die KMC nach Zählordnung des [[https://www.100-marathon-club.de/][100 Marathon Club Deutschland e.V.]] durchgeführt und kann dort anerkannt werden.
-11. Die digitalen Urkunden werden in der Woche nach dem Marathon per Email verschickt.
-    Die Finisherliste wird gleichzeitig auf der [[https://kuhsee-marathon-challenge.github.io/kmc/][KMC Seite]] und in der Facebook Gruppe veröffentlicht.
-12. Die Teilnahme erfolgt auf eigenes Risiko.
+8. Die Laufstrecke teilen wir gerne mit den Spaziergängern, auf die wir gerne Rücksicht nehmen.
+   So können wir alle eine stressfreie Veranstaltung und einen schönen Sonntag am Kuhsee genießen!
+9. Es sind insgesamt 3 öffentliche Toiletten auf der Strecke vorhanden, wobei mindestens eine (bei der Wasserwacht) sicher auch im Winter geöffnet bleibt.
+10. Bitte nehmt genug warme Sachen für "nach dem Lauf" mit.
+    Erfahrungsgemäß haben wir kühleres Wetter bei der KMC @@html:&#128521;@@
+11. Seit 2022 wird die KMC nach Zählordnung des [[https://www.100-marathon-club.de/][100 Marathon Club Deutschland e.V.]] durchgeführt und kann dort anerkannt werden.
+12. Die digitalen Urkunden werden zeitnah nach dem Lauf auf der [[https://my.raceresult.com/293217/results][Ergebnisseite von race result]] veröffentlicht.
+13. Die Teilnahme erfolgt auf eigenes Risiko.
     Der Organisator übernimmt für Unfälle und Verletzungen aller Art sowie Diebstahl oder sonstige Schäden keine Haftung.
     Die Läuferinnen und Läufer versichern, dass sie gesund sind und unter Beachtung ihrer Leistungsfähigkeit am Lauf teilnehmen.
     Daten und Fotos, die im Zusammenhang mit dem Lauf stehen, können ohne Vergütungsanspruch genutzt werden.
-#+end_comment
+
+@@html:<font size="+2">@@
+#+begin_center
+*Dieter und Frank wünschen Euch allen einen verletzungsfreien und unvergesslichen Lauf!*
+#+end_center
+@@html:</font>@@
 
 * Geschichte
 ** Der 6. KMC
@@ -204,6 +213,22 @@ Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen üb
 | von Hofer    | Moritz     |   2   |      |  1   |  1   |      |      |      |         |
 |              |            |  70   |  3   |  5   |  12  |  10  |  15  |  25  |         |
 #+tblfm: @>$3..@>$>>=vsum(@<<<..@>>)::@<<<$3..@>>$3=vsum($4..$>>)::@<<<$10..@>>$10='(if (> (length $9) 0) (string-replace " " "_" (format "[[file:certificates/kmc6/6_KMC_Urkunde_%s_%s.pdf][2023]]" $2 $1)) "")
+
+* Anreise
+Der KMC is leicht bei den Koordinaten 48.3378° N, 10.9405° E zu finden:
+#+begin_src plantuml :file earth.png
+@startuml
+xearth
+viewPositionType = Fixed
+viewPosLat = 20
+viewPosLong = 10
+48.33 10.94 "KMC"
+@enduml
+#+end_src
+
+#+RESULTS:
+[[file:earth.png]]
+
 
 * Settings                                                             :ARCHIVE:
 #+OPTIONS:  H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:{} -:t f:t *:t TeX:t LaTeX:t skip:nil d:(HIDE) tags:not-in-toc
