@@ -43,7 +43,7 @@ Colors:
 
 * Regeln
 Die grundlegenden Ideen der Kuhsee Marathon Challenge sind:
-- es gibt keine Starterliste,
+- +es gibt keine Starterliste,+
 - es gibt kein Startgeld,
 - es gibt keinen ersten und keinen letzten Läufer,
 - es gibt keine Cut Offs und kein DNFs.
@@ -93,6 +93,25 @@ nette Gespräche zu führen, zusammen die Tiefs und die Hochs zu erleben – ist
 *Dieter und Frank wünschen Euch allen einen verletzungsfreien und unvergesslichen Lauf!*
 #+end_center
 @@html:</font>@@
+
+** Letzte Infos vor der 7. Kuhsee Marathon Challenge
+- Aufgrund der hohen Starteranzahl, möchten wir euch einen zusätzlichen Start (Elite) um 8:00 Uhr anbieten.
+  Frank wird vor Ort sein und den ersten Tisch am Kiosk "Pier 3" bereitstellen. Ich werde mit der Hauptstartgruppe um 9:00 starten.
+- Die erste Runde startet traditionell im Uhrzeigersinn.
+  Danach kann jeder beliebig die Richtung wechseln oder beibehalten.
+- Bitte denkt daran Trinken und Essen für den eigenen Bedarf und warme Kleidung für "Nach dem Lauf" einzupacken.
+- Herzlich Willkommen sind von euch mitgebrachte große Thermoskannen mit warmen Getränken, ein paar Tassen und Post-its mit "Zur gemeinsamen Nutzung" und Angaben über den Inhalt.
+- Bitte die Tische, Stühle und die Strandkörbe von Kiosk "Pier 3" *nicht* benutzen.
+  Wir möchten auch im nächsten Jahr unsere schöne KMC Geschichte weiterhin beschwerdefrei schreiben können.
+- Beim Hauptstart und Gemeinschaftsfoto werde ich die diesjährige Medaille präsentieren. Es sind 25 Stück bestellt.
+  Wie letztes Jahr, werden die auswärtigen Läufer nach 18 Runden (bitte nicht nach 42 km stehen bleiben, die Strecke ist ca. 43 km) die Medaille sofort erhalten.
+  Die Augsburger Läufer werden entweder beim Silvesterlauf in Gersthofen oder bei einem privaten Läufchen mit Frank und/oder mir ihre wohlverdiente Medaille überreicht bekommen.
+- Die Medaillenkosten liegen dieses Jahr bei 15 €.
+  Der Betrag kann am 1.12 vor Ort oder per PayPal an dieterschaab@web.de (Family and Friends) überwiesen werden.
+  Alle Spenden, die darüberhinaus gehen, werde ich auch wie letztes Jahr zweckgebunden spenden.
+- Bitte bleibt gesund und entspannt.
+  Es ist kein leistungsorientierter Wettbewerb.
+  Kommen, Spaß haben und eine schöne Zeit mit den nettesten Läufern verbringen.
 
 * Geschichte
 ** Der 6. KMC
