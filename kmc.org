@@ -35,10 +35,10 @@ Colors:
   data-timezone="Europe/Berlin"
   data-language="de"
   data-textcolor="#5c5658"
-  data-date="2024-12-1 9:00"
+  data-date="2025-11-30 9:00"
   data-background="#fece22"
   data-digitscolor="#5c5658"
-  data-unitscolor="#5c5658">7. KMC</a>
+  data-unitscolor="#5c5658">8. KMC</a>
 #+END_EXPORT
 
 * Regeln
@@ -54,25 +54,26 @@ Die Möglichkeit die wunderbaren (Nichtläufer sagen /die Verrückten/) Menschen
 neben einem Läufer zu laufen, der schon mehrere Marathons gelaufen ist oder neben einem Marathondebütant,
 nette Gespräche zu führen, zusammen die Tiefs und die Hochs zu erleben – ist einfach unbezahlbar.
 
-* Ausschreibung 7. KMC
+* Ausschreibung 8. KMC
 
-1. Die 7. Ausgabe der legendären Kuhsee Marathon Challenge findet am 01.12.24 um 9:00 Uhr statt. Der Start ist am Kiosk "[[https://goo.gl/maps/nKrksRz24LMGqmUC6][Pier 3 am Kuhsee]]" bei den Tischtennisplatten.
+1. Die 8. Ausgabe der kultigen Kuhsee Marathon Challenge findet am 30.11.2025 um 9:00 Uhr statt. Der Start ist am Kiosk "[[https://goo.gl/maps/nKrksRz24LMGqmUC6][Pier 3 am Kuhsee]]" bei den Tischtennisplatten.
 2. Ein Parkplatz (Zufahrt über die Mittenwalder Str.) ist kostenlos und in unmittelbarer Nähe zum Kiosk (100 Meter) vorhanden.
-3. Das Orgateam bietet dieses Jahr die KMC-Anmeldung über race result unter https://my.raceresult.com/293217/registration an.
+3. Das Orgateam bietet dieses Jahr die KMC-Anmeldung wieder über race result unter https://my.raceresult.com/341874/registration an.
    Die Anmeldung für die Läufer ist kostenlos.
    Bei der Benutzung des Portals fallen jedoch pro Läufer entsprechende Gebühren an.
    Aus diesem Grund ist die Teilnehmerzahl auf 50 begrenzt.
-   Läufer werden gebeten, sich nur dann anzumelden, wenn sie sicher bei KMC teilnehmen wollen oder können.
+   Die Läufer werden gebeten, sich nur dann anzumelden, wenn sie auch sicher bei KMC teilnehmen wollen.
    Falls die Teilnahme aus irgendwelchen Gründen nicht möglich ist, bitten wir darum, sich sofort abzumelden, damit die Plätze wieder frei werden.
+   Weitere Informationen finden Sie auf der Kuhsee Marathon Challenge Website.
 4. Die KMC ist gefinished, wenn man volle 18 Runden um den Kuhsee gelaufen ist.
    Eine Runde ist ca. 2,4 km lang und man läuft insgesamt ca. 43,2km.
    Die 42 km Marke ist *kein* Finish und liegt sowieso auf der anderen Seite des Sees.
-5. Die Läufer, die früher oder später fertig sind bitten wir, einen Link oder ein Screenshot von dem Ergebnis an mailto:kuhsee.marathon.challenge@gmail.com zu schicken.
-6. Jedes Jahr wird für alle Finisher eine besondere Medaille angeboten.
+5. Jeder Finisher erfasst seine Bruttozeit eigenständig mit einer GPS-Uhr oder einem Smartphone, trägt die Ergebniszeit in die ausliegende Teilnehmerliste ein und sendet einen Link von seinem Lauf an mailto:kuhsee.marathon.challenge@gmail.com.
+6. Für alle Finisher wird, wie jedes Jahr, eine besondere Medaille angeboten.
    Da die Anzahl der Finisher erst nach dem Lauf bekannt wird, werden die Medaillen erst danach produziert.
-   Wie es sich aber bereits im letzten Jahr bewährt hat, wird versucht für die auswärtigen Läufer eine begrenzte Anzahl der Medaillen vorzuproduzieren.
+   Es wird wieder versucht, für die auswärtigen Läufer eine begrenzte Anzahl der Medaillen vorzuproduzieren.
    Die Augsburger bekommen die Medaillen beim nächsten gemeinsamen Lauf.
-   Die Kosten und das Aussehen der Medaille werden nach dem Lauf bekannt gegeben (eventuell zw. 12 € und 15 €).
+   Die Kosten und das Aussehen der Medaille werden nach dem Lauf bekannt gegeben (eventuell zwischen 10 € und 15 €).
 7. Bei der KMC ist Eigenverpflegung angesagt.
    Ein Biertisch zum Abstellen des Proviants wird organisiert.
    Ein Laufrucksack ist auch eine gute Alternative.
@@ -81,12 +82,13 @@ nette Gespräche zu führen, zusammen die Tiefs und die Hochs zu erleben – ist
 9. Es sind insgesamt 3 öffentliche Toiletten auf der Strecke vorhanden, wobei mindestens eine (bei der Wasserwacht) sicher auch im Winter geöffnet bleibt.
 10. Bitte nehmt genug warme Sachen für "nach dem Lauf" mit.
     Erfahrungsgemäß haben wir kühleres Wetter bei der KMC @@html:&#128521;@@
-11. Seit 2022 wird die KMC nach Zählordnung des [[https://www.100-marathon-club.de/][100 Marathon Club Deutschland e.V.]] durchgeführt und kann dort anerkannt werden.
-12. Die digitalen Urkunden werden zeitnah nach dem Lauf auf der [[https://my.raceresult.com/293217/results][Ergebnisseite von race result]] veröffentlicht.
+11. Seit 2022 wird die KMC nach Zählordnung des [[https://www.100-marathon-club.de/][100 Marathon Club Deutschland e.V.]] durchgeführt und wird bei 100MC anerkannt.
+12. Die digitalen Urkunden werden zeitnah nach dem Lauf auf der [[https://my.raceresult.com/341874/results][Ergebnisseite von race result]] veröffentlicht.
 13. Die Teilnahme erfolgt auf eigenes Risiko.
     Der Organisator übernimmt für Unfälle und Verletzungen aller Art sowie Diebstahl oder sonstige Schäden keine Haftung.
     Die Läuferinnen und Läufer versichern, dass sie gesund sind und unter Beachtung ihrer Leistungsfähigkeit am Lauf teilnehmen.
-    Daten und Fotos, die im Zusammenhang mit dem Lauf stehen, können ohne Vergütungsanspruch genutzt werden.
+14. Mit der Anmeldung erklärt sich der/die Teilnehmerin damit einverstanden, dass im Rahmen der Veranstaltung eine Teilnehmerliste mit Vor- und Nachnamen veröffentlicht wird.
+    Zudem dürfen Fotos, auf denen Teilnehmerinnen erkennbar abgebildet sind, im Zusammenhang mit dem Lauf ohne Vergütungsanspruch veröffentlicht und verwendet werden (z.B. auf der Webseite, in sozialen Medien oder in Presseberichten).
 
 @@html:<font size="+2">@@
 #+begin_center
@@ -94,7 +96,8 @@ nette Gespräche zu führen, zusammen die Tiefs und die Hochs zu erleben – ist
 #+end_center
 @@html:</font>@@
 
-** Letzte Infos vor der 7. Kuhsee Marathon Challenge
+#+begin_comment
+,** Letzte Infos vor der 7. Kuhsee Marathon Challenge
 - Aufgrund der hohen Starteranzahl, möchten wir euch einen zusätzlichen Start (Elite) um 8:00 Uhr anbieten.
   Frank wird vor Ort sein und den ersten Tisch am Kiosk "Pier 3" bereitstellen. Ich werde mit der Hauptstartgruppe um 9:00 starten.
 - Die erste Runde startet traditionell im Uhrzeigersinn.
@@ -112,6 +115,7 @@ nette Gespräche zu führen, zusammen die Tiefs und die Hochs zu erleben – ist
 - Bitte bleibt gesund und entspannt.
   Es ist kein leistungsorientierter Wettbewerb.
   Kommen, Spaß haben und eine schöne Zeit mit den nettesten Läufern verbringen.
+#+end_comment
 
 * Geschichte
 ** Der 6. KMC
@@ -184,54 +188,127 @@ Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen üb
 #+end_center
 
 * Finisher
+#+name: finisher
 #+ATTR_HTML: :class styledtablelastrow
 #+ATTR_HTML: :border 1
 #+ATTR_HTML: :rules all
 #+ATTR_HTML: :frame border
 #+ATTR_HTML: :width 100%
-| <l>          | <l>        |  <c>  | <c>  | <c>  | <c>  | <c>  | <c>  | <c>  |   <c>   |
-| Nachname     | Vorname    | Summe | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | Urkunde |
-|--------------+------------+-------+------+------+------+------+------+------+---------|
-| Berger       | Charly     |   2   |      |      |      |      |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Charly_Berger.pdf][2023]]   |
-| Bischoff     | Rainer     |   1   |      |      |  1   |      |      |      |         |
-| Ecker        | Fabian     |   1   |      |      |      |      |  1   |      |         |
-| Einmüller    | Peter      |   3   |      |      |      |  1   |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Peter_Einmüller.pdf][2023]]   |
-| Gamperl      | Elisabeth  |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Elisabeth_Gamperl.pdf][2023]]   |
-| Grashei      | Alexandra  |   2   |      |      |      |  1   |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Alexandra_Grashei.pdf][2023]]   |
-| Grändorf     | Dennis     |   2   |  1   |      |  1   |      |      |      |         |
-| Hellmann     | Carsten    |   3   |      |  1   |  1   |  1   |      |      |         |
-| Jetzlsperger | Klaus      |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Klaus_Jetzlsperger.pdf][2023]]   |
-| Joos         | Stehpan    |   3   |  1   |  1   |  1   |      |      |      |         |
-| Kaleja       | Yvonne     |   2   |      |      |      |      |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Yvonne_Kaleja.pdf][2023]]   |
-| Kliem        | Manfred    |   1   |      |      |  1   |      |      |      |         |
-| Klinger      | Thomas     |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Thomas_Klinger.pdf][2023]]   |
-| Machel       | Michael    |   2   |      |      |      |      |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Michael_Machel.pdf][2023]]   |
-| Magg         | Christoph  |   5   |      |  1   |  1   |  1   |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Christoph_Magg.pdf][2023]]   |
-| Manhard      | Bernie     |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Bernie_Manhard.pdf][2023]]   |
-| Mai          | Sybille    |   1   |      |      |  1   |      |      |      |         |
-| Mayr         | Richard    |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Richard_Mayr.pdf][2023]]   |
-| Mielke       | Marian     |   3   |      |      |  1   |  1   |  1   |      |         |
-| Mittomayer   | Bastian    |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Bastian_Mittomayer.pdf][2023]]   |
-| Nagl         | Melanie    |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Melanie_Nagl.pdf][2023]]   |
-| Naschilewski | Alexander  |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Alexander_Naschilewski.pdf][2023]]   |
-| Neumann      | Conni      |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Conni_Neumann.pdf][2023]]   |
-| Penning      | Claudia    |   1   |      |      |      |  1   |      |      |         |
-| Pitsch       | Udo        |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Udo_Pitsch.pdf][2023]]   |
-| Roland       | Frank      |   4   |      |      |  1   |  1   |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Frank_Roland.pdf][2023]]   |
-| Rupprecht    | Michael    |   2   |      |      |      |      |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Michael_Rupprecht.pdf][2023]]   |
-| Safronov     | Kirill     |   2   |      |      |      |      |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Kirill_Safronov.pdf][2023]]   |
-| Schaab       | Dieter     |   6   |  1   |  1   |  1   |  1   |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Dieter_Schaab.pdf][2023]]   |
-| Schneider    | Stefan     |   2   |      |      |      |      |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Stefan_Schneider.pdf][2023]]   |
-| Turzynski    | Michael    |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Michael_Turzynski.pdf][2023]]   |
-| Utz          | Christian  |   2   |      |      |      |  1   |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Christian_Utz.pdf][2023]]   |
-| Vogel        | Simon      |   2   |      |      |      |      |  1   |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Simon_Vogel.pdf][2023]]   |
-| Volk         | Peter      |   1   |      |      |      |      |  1   |      |         |
-| Waldow       | Maximilian |   1   |      |      |      |      |  1   |      |         |
-| Winkelmann   | Sven       |   2   |      |      |  1   |  1   |      |      |         |
-| Zischke      | Mathias    |   1   |      |      |      |      |      |  1   |  [[file:certificates/kmc6/6_KMC_Urkunde_Mathias_Zischke.pdf][2023]]   |
-| von Hofer    | Moritz     |   2   |      |  1   |  1   |      |      |      |         |
-|              |            |  70   |  3   |  5   |  12  |  10  |  15  |  25  |         |
-#+tblfm: @>$3..@>$>>=vsum(@<<<..@>>)::@<<<$3..@>>$3=vsum($4..$>>)::@<<<$10..@>>$10='(if (> (length $9) 0) (string-replace " " "_" (format "[[file:certificates/kmc6/6_KMC_Urkunde_%s_%s.pdf][2023]]" $2 $1)) "")
+| <l>          | <l>        | <c>  | <c>  | <c>  | <c>  | <c>  | <c>  |  <c>  |
+| Nachname     | Vorname    | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | Summe |
+|--------------+------------+------+------+------+------+------+------+-------|
+| Berger       | Charly     |      |      |      |      |  1   |  1   |   2   |
+| Bischoff     | Rainer     |      |      |  1   |      |      |      |   1   |
+| Ecker        | Fabian     |      |      |      |      |  1   |      |   1   |
+| Einmüller    | Peter      |      |      |      |  1   |  1   |  1   |   3   |
+| Gamperl      | Elisabeth  |      |      |      |      |      |  1   |   1   |
+| Grashei      | Alexandra  |      |      |      |  1   |      |  1   |   2   |
+| Grändorf     | Dennis     |  1   |      |  1   |      |      |      |   2   |
+| Hellmann     | Carsten    |      |  1   |  1   |  1   |      |      |   3   |
+| Jetzlsperger | Klaus      |      |      |      |      |      |  1   |   1   |
+| Joos         | Stehpan    |  1   |  1   |  1   |      |      |      |   3   |
+| Kaleja       | Yvonne     |      |      |      |      |  1   |  1   |   2   |
+| Kliem        | Manfred    |      |      |  1   |      |      |      |   1   |
+| Klinger      | Thomas     |      |      |      |      |      |  1   |   1   |
+| Machel       | Michael    |      |      |      |      |  1   |  1   |   2   |
+| Magg         | Christoph  |      |  1   |  1   |  1   |  1   |  1   |   5   |
+| Manhard      | Bernie     |      |      |      |      |      |  1   |   1   |
+| Mai          | Sybille    |      |      |  1   |      |      |      |   1   |
+| Mayr         | Richard    |      |      |      |      |      |  1   |   1   |
+| Mielke       | Marian     |      |      |  1   |  1   |  1   |      |   3   |
+| Mittomayer   | Bastian    |      |      |      |      |      |  1   |   1   |
+| Nagl         | Melanie    |      |      |      |      |      |  1   |   1   |
+| Naschilewski | Alexander  |      |      |      |      |      |  1   |   1   |
+| Neumann      | Conni      |      |      |      |      |      |  1   |   1   |
+| Penning      | Claudia    |      |      |      |  1   |      |      |   1   |
+| Pitsch       | Udo        |      |      |      |      |      |  1   |   1   |
+| Roland       | Frank      |      |      |  1   |  1   |  1   |  1   |   4   |
+| Rupprecht    | Michael    |      |      |      |      |  1   |  1   |   2   |
+| Safronov     | Kirill     |      |      |      |      |  1   |  1   |   2   |
+| Schaab       | Dieter     |  1   |  1   |  1   |  1   |  1   |  1   |   6   |
+| Schneider    | Stefan     |      |      |      |      |  1   |  1   |   2   |
+| Turzynski    | Michael    |      |      |      |      |      |  1   |   1   |
+| Utz          | Christian  |      |      |      |  1   |      |  1   |   2   |
+| Vogel        | Simon      |      |      |      |      |  1   |  1   |   2   |
+| Volk         | Peter      |      |      |      |      |  1   |      |   1   |
+| Waldow       | Maximilian |      |      |      |      |  1   |      |   1   |
+| Winkelmann   | Sven       |      |      |  1   |  1   |      |      |   2   |
+| Zischke      | Mathias    |      |      |      |      |      |  1   |   1   |
+| von Hofer    | Moritz     |      |  1   |  1   |      |      |      |   2   |
+|              |            |  3   |  5   |  12  |  10  |  15  |  25  |  70   |
+#+tblfm: @>$9..@>$>>=vsum(@<<<..@>>)::@<<<$9..@>>$9=vsum($3..$>>)
+
+#+HEADER: :cache yes
+#+HEADER: :exports none
+#+HEADER: :results value
+#+HEADER: :var table=finisher[1:-2,0:-3]
+#+BEGIN_SRC emacs-lisp
+table
+#+END_SRC
+
+#+RESULTS[a84e3e9d15e975cb1a5f64ccca91a96d143f08e0]:
+| Berger       | Charly     |   |   |   |   | 1 | 1 |
+| Bischoff     | Rainer     |   |   | 1 |   |   |   |
+| Ecker        | Fabian     |   |   |   |   | 1 |   |
+| Einmüller    | Peter      |   |   |   | 1 | 1 | 1 |
+| Gamperl      | Elisabeth  |   |   |   |   |   | 1 |
+| Grashei      | Alexandra  |   |   |   | 1 |   | 1 |
+| Grändorf     | Dennis     | 1 |   | 1 |   |   |   |
+| Hellmann     | Carsten    |   | 1 | 1 | 1 |   |   |
+| Jetzlsperger | Klaus      |   |   |   |   |   | 1 |
+| Joos         | Stehpan    | 1 | 1 | 1 |   |   |   |
+| Kaleja       | Yvonne     |   |   |   |   | 1 | 1 |
+| Kliem        | Manfred    |   |   | 1 |   |   |   |
+| Klinger      | Thomas     |   |   |   |   |   | 1 |
+| Machel       | Michael    |   |   |   |   | 1 | 1 |
+| Magg         | Christoph  |   | 1 | 1 | 1 | 1 | 1 |
+| Manhard      | Bernie     |   |   |   |   |   | 1 |
+| Mai          | Sybille    |   |   | 1 |   |   |   |
+| Mayr         | Richard    |   |   |   |   |   | 1 |
+| Mielke       | Marian     |   |   | 1 | 1 | 1 |   |
+| Mittomayer   | Bastian    |   |   |   |   |   | 1 |
+| Nagl         | Melanie    |   |   |   |   |   | 1 |
+| Naschilewski | Alexander  |   |   |   |   |   | 1 |
+| Neumann      | Conni      |   |   |   |   |   | 1 |
+| Penning      | Claudia    |   |   |   | 1 |   |   |
+| Pitsch       | Udo        |   |   |   |   |   | 1 |
+| Roland       | Frank      |   |   | 1 | 1 | 1 | 1 |
+| Rupprecht    | Michael    |   |   |   |   | 1 | 1 |
+| Safronov     | Kirill     |   |   |   |   | 1 | 1 |
+| Schaab       | Dieter     | 1 | 1 | 1 | 1 | 1 | 1 |
+| Schneider    | Stefan     |   |   |   |   | 1 | 1 |
+| Turzynski    | Michael    |   |   |   |   |   | 1 |
+| Utz          | Christian  |   |   |   | 1 |   | 1 |
+| Vogel        | Simon      |   |   |   |   | 1 | 1 |
+| Volk         | Peter      |   |   |   |   | 1 |   |
+| Waldow       | Maximilian |   |   |   |   | 1 |   |
+| Winkelmann   | Sven       |   |   | 1 | 1 |   |   |
+| Zischke      | Mathias    |   |   |   |   |   | 1 |
+| von Hofer    | Moritz     |   | 1 | 1 |   |   |   |
+
+#+HEADER: :exports none
+#+HEADER: :var data=finisher[1:-2,0:-3]
+#+begin_src ruby
+require 'csv'
+
+# Extract relevant data from the table
+participants = data.map do |row|
+  row
+end
+
+# Create CSV file
+CSV.open("participants.csv", "wb") do |csv|
+  csv << ["Nachname", "Vorname", "2018", "2019", "2020", "2021", "2022", "2023"]
+  participants.each do |participant|
+    csv << participant
+  end
+end
+
+puts "CSV file 'participants.csv' created successfully."
+#+end_src
+
+#+RESULTS:
+: nil
 
 * Anreise
 Der KMC is leicht bei den Koordinaten 48.3378° N, 10.9405° E zu finden:
