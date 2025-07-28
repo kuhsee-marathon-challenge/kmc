@@ -58,7 +58,8 @@ nette Gespräche zu führen, zusammen die Tiefs und die Hochs zu erleben – ist
 
 1. Die 8. Ausgabe der kultigen Kuhsee Marathon Challenge findet am 30.11.2025 um 9:00 Uhr statt. Der Start ist am Kiosk "[[https://goo.gl/maps/nKrksRz24LMGqmUC6][Pier 3 am Kuhsee]]" bei den Tischtennisplatten.
 2. Ein Parkplatz (Zufahrt über die Mittenwalder Str.) ist kostenlos und in unmittelbarer Nähe zum Kiosk (100 Meter) vorhanden.
-3. Das Orgateam bietet dieses Jahr die KMC-Anmeldung wieder über race result unter https://my.raceresult.com/341874/registration an.
+3. Das Orgateam bietet dieses Jahr die KMC-Anmeldung wieder über race result [[*Anmeldung][hier unter Anmeldung]] oder alternativ unter https://my.raceresult.com/341874/registration an.
+
    Die Anmeldung für die Läufer ist kostenlos.
    Bei der Benutzung des Portals fallen jedoch pro Läufer entsprechende Gebühren an.
    Aus diesem Grund ist die Teilnehmerzahl auf 50 begrenzt.
@@ -95,6 +96,56 @@ nette Gespräche zu führen, zusammen die Tiefs und die Hochs zu erleben – ist
 *Dieter und Frank wünschen Euch allen einen verletzungsfreien und unvergesslichen Lauf!*
 #+end_center
 @@html:</font>@@
+
+* Anmeldung
+#+begin_comment
+URL for participants counter can be creaded by:
+- going to ~Main Windows~ \to ~Access Rights/Sinmple API~ \to ~SIMPLE API~ and add
+  - ~Active Type~: ~Counter~
+  - ~Details~: select the event
+  - save
+  - follow ~Link~ ~Link online~ icon and copy the URL
+#+end_comment
+
+#+BEGIN_EXPORT html
+<p>Anzahl angemeldeter Teilnehmer: <span id="participantCount">Loading...</span> von 50</p>
+
+<script>
+  fetch("https://api.raceresult.com/341874/TNDM5O5UEH58K9CAMUBOAPHL8SX22TQC")
+    .then(response => response.text())
+    .then(count => {
+      document.getElementById("participantCount").textContent = count;
+    })
+    .catch(error => {
+      console.error("Error fetching participant count:", error);
+      document.getElementById("participantCount").textContent = "Unavailable";
+    });
+</script>
+
+
+<style>
+  .registration-frame {
+    border: 3px solid #007acc; /* Blue border */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Optional: light background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    margin: 0 auto;
+  }
+</style>
+
+<div class="registration-frame">
+<script type="text/javascript">
+<!--
+  var RRReg_eventid="341874";
+  var RRReg_name="Einzel-Anmeldung";
+  var RRReg_key="6GLQBtcYQC21";
+  var RRReg_server="https://events2.raceresult.com";
+-->
+</script>
+<script type="text/javascript" src="https://events2.raceresult.com/registrations/init.js?lang=de"></script>
+</div>
+#+END_EXPORT
 
 #+begin_comment
 ,** Letzte Infos vor der 7. Kuhsee Marathon Challenge
