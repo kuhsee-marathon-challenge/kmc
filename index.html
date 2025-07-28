@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2025-07-07 Mon 06:49 -->
+<!-- 2025-07-28 Mon 19:02 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Kuhsee Marathon Challenge</title>
@@ -211,9 +211,9 @@
   data-digitscolor="#5c5658"
   data-unitscolor="#5c5658">8. KMC</a>
 
-<div id="outline-container-org48d8058" class="outline-2">
-<h2 id="org48d8058">Regeln</h2>
-<div class="outline-text-2" id="text-org48d8058">
+<div id="outline-container-orgfede445" class="outline-2">
+<h2 id="orgfede445">Regeln</h2>
+<div class="outline-text-2" id="text-orgfede445">
 <p>
 Die grundlegenden Ideen der Kuhsee Marathon Challenge sind:
 </p>
@@ -234,19 +234,24 @@ nette Gespräche zu führen, zusammen die Tiefs und die Hochs zu erleben – ist
 </div>
 </div>
 
-<div id="outline-container-orgdbca8fa" class="outline-2">
-<h2 id="orgdbca8fa">Ausschreibung 8. KMC</h2>
-<div class="outline-text-2" id="text-orgdbca8fa">
+<div id="outline-container-orgdcd6519" class="outline-2">
+<h2 id="orgdcd6519">Ausschreibung 8. KMC</h2>
+<div class="outline-text-2" id="text-orgdcd6519">
 <ol class="org-ol">
 <li>Die 8. Ausgabe der kultigen Kuhsee Marathon Challenge findet am 30.11.2025 um 9:00 Uhr statt. Der Start ist am Kiosk "<a href="https://goo.gl/maps/nKrksRz24LMGqmUC6">Pier 3 am Kuhsee</a>" bei den Tischtennisplatten.</li>
 <li>Ein Parkplatz (Zufahrt über die Mittenwalder Str.) ist kostenlos und in unmittelbarer Nähe zum Kiosk (100 Meter) vorhanden.</li>
-<li>Das Orgateam bietet dieses Jahr die KMC-Anmeldung wieder über race result unter <a href="https://my.raceresult.com/341874/registration">https://my.raceresult.com/341874/registration</a> an.
+<li><p>
+Das Orgateam bietet dieses Jahr die KMC-Anmeldung wieder über race result <a href="#org4292682">hier unter Anmeldung</a> oder alternativ unter <a href="https://my.raceresult.com/341874/registration">https://my.raceresult.com/341874/registration</a> an.
+</p>
+
+<p>
 Die Anmeldung für die Läufer ist kostenlos.
 Bei der Benutzung des Portals fallen jedoch pro Läufer entsprechende Gebühren an.
 Aus diesem Grund ist die Teilnehmerzahl auf 50 begrenzt.
 Die Läufer werden gebeten, sich nur dann anzumelden, wenn sie auch sicher bei KMC teilnehmen wollen.
 Falls die Teilnahme aus irgendwelchen Gründen nicht möglich ist, bitten wir darum, sich sofort abzumelden, damit die Plätze wieder frei werden.
-Weitere Informationen finden Sie auf der Kuhsee Marathon Challenge Website.</li>
+Weitere Informationen finden Sie auf der Kuhsee Marathon Challenge Website.
+</p></li>
 <li>Die KMC ist gefinished, wenn man volle 18 Runden um den Kuhsee gelaufen ist.
 Eine Runde ist ca. 2,4 km lang und man läuft insgesamt ca. 43,2km.
 Die 42 km Marke ist <b>kein</b> Finish und liegt sowieso auf der anderen Seite des Sees.</li>
@@ -287,13 +292,56 @@ Zudem dürfen Fotos, auf denen Teilnehmerinnen erkennbar abgebildet sind, im Zus
 </div>
 </div>
 
-<div id="outline-container-org49f1f7a" class="outline-2">
-<h2 id="org49f1f7a">Geschichte</h2>
-<div class="outline-text-2" id="text-org49f1f7a">
+<div id="outline-container-org4292682" class="outline-2">
+<h2 id="org4292682">Anmeldung</h2>
+<div class="outline-text-2" id="text-org4292682">
+<p>Anzahl angemeldeter Teilnehmer: <span id="participantCount">Loading...</span> von 50</p>
+
+<script>
+  fetch("https://api.raceresult.com/341874/TNDM5O5UEH58K9CAMUBOAPHL8SX22TQC")
+    .then(response => response.text())
+    .then(count => {
+      document.getElementById("participantCount").textContent = count;
+    })
+    .catch(error => {
+      console.error("Error fetching participant count:", error);
+      document.getElementById("participantCount").textContent = "Unavailable";
+    });
+</script>
+
+
+<style>
+  .registration-frame {
+    border: 3px solid #007acc; /* Blue border */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Optional: light background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    margin: 0 auto;
+  }
+</style>
+
+<div class="registration-frame">
+<script type="text/javascript">
+<!--
+  var RRReg_eventid="341874";
+  var RRReg_name="Einzel-Anmeldung";
+  var RRReg_key="6GLQBtcYQC21";
+  var RRReg_server="https://events2.raceresult.com";
+-->
+</script>
+<script type="text/javascript" src="https://events2.raceresult.com/registrations/init.js?lang=de"></script>
 </div>
-<div id="outline-container-orga7d8166" class="outline-3">
-<h3 id="orga7d8166">Der 6. KMC</h3>
-<div class="outline-text-3" id="text-orga7d8166">
+</div>
+</div>
+
+<div id="outline-container-org3efd2f9" class="outline-2">
+<h2 id="org3efd2f9">Geschichte</h2>
+<div class="outline-text-2" id="text-org3efd2f9">
+</div>
+<div id="outline-container-org10ffa30" class="outline-3">
+<h3 id="org10ffa30">Der 6. KMC</h3>
+<div class="outline-text-3" id="text-org10ffa30">
 <p>
 <a href="images/medals/2023.jpg" alt="Medaille 2023" title="Medaille 2023" width="200px" style="float:right"><img src="images/medals/2023.jpg" alt="Medaille 2023" title="Medaille 2023" width="200px" /></a>
 Die sechste Edition der KMC am 10.12.2023&#x2026; ein Großereignis der Superlative, stand unter dem Motto:
@@ -366,9 +414,9 @@ Wer noch mehr erfahren möchte, Wilfried Matzke hat einen Artikel in <a href="ht
 </div>
 </div>
 
-<div id="outline-container-orgfeba58a" class="outline-3">
-<h3 id="orgfeba58a">Der 5. KMC</h3>
-<div class="outline-text-3" id="text-orgfeba58a">
+<div id="outline-container-org33c5611" class="outline-3">
+<h3 id="org33c5611">Der 5. KMC</h3>
+<div class="outline-text-3" id="text-org33c5611">
 <p>
 <a href="images/medals/2022.jpg" alt="Medaille 2022" title="Medaille 2022" width="200px" style="float:right"><img src="images/medals/2022.jpg" alt="Medaille 2022" title="Medaille 2022" width="200px" /></a>
 Die fünfte Edition der KMC am 11.12.2022 war wieder ein Erfolg: 1 Finisherin + 14 Finisher!
@@ -401,9 +449,9 @@ Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen üb
 </div>
 </div>
 
-<div id="outline-container-orga5025fb" class="outline-3">
-<h3 id="orga5025fb">Medaillenfotos der älteren KMC</h3>
-<div class="outline-text-3" id="text-orga5025fb">
+<div id="outline-container-orgbfc2ddb" class="outline-3">
+<h3 id="orgbfc2ddb">Medaillenfotos der älteren KMC</h3>
+<div class="outline-text-3" id="text-orgbfc2ddb">
 <div class="org-center">
 <p>
 <a href="images/medals/2018.jpg" alt="Medaille 2018" title="Medaille 2018" width="200px"><img src="images/medals/2018.jpg" alt="Medaille 2018" title="Medaille 2018" width="200px" /></a> <a href="images/medals/2019.jpg" alt="Medaille 2019" title="Medaille 2019" width="200px"><img src="images/medals/2019.jpg" alt="Medaille 2019" title="Medaille 2019" width="200px" /></a> <a href="images/medals/2020.jpg" alt="Medaille 2020" title="Medaille 2020" width="200px"><img src="images/medals/2020.jpg" alt="Medaille 2020" title="Medaille 2020" width="200px" /></a> <a href="images/medals/2021.jpg" alt="Medaille 2021" title="Medaille 2021" width="200px"><img src="images/medals/2021.jpg" alt="Medaille 2021" title="Medaille 2021" width="200px" /></a>
@@ -413,10 +461,10 @@ Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen üb
 </div>
 </div>
 
-<div id="outline-container-org53de1af" class="outline-2">
-<h2 id="org53de1af">Finisher</h2>
-<div class="outline-text-2" id="text-org53de1af">
-<table id="org859b79a" width="100%" frame="border" rules="all" border="1" class="styledtablelastrow">
+<div id="outline-container-org4ed2a4e" class="outline-2">
+<h2 id="org4ed2a4e">Finisher</h2>
+<div class="outline-text-2" id="text-org4ed2a4e">
+<table id="org42a606a" width="100%" frame="border" rules="all" border="1" class="styledtablelastrow">
 
 
 <colgroup>
@@ -924,14 +972,14 @@ Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen üb
 </div>
 </div>
 
-<div id="outline-container-orgbe0c2d4" class="outline-2">
-<h2 id="orgbe0c2d4">Anreise</h2>
-<div class="outline-text-2" id="text-orgbe0c2d4">
+<div id="outline-container-orgb4d0a50" class="outline-2">
+<h2 id="orgb4d0a50">Anreise</h2>
+<div class="outline-text-2" id="text-orgb4d0a50">
 <p>
 Der KMC is leicht bei den Koordinaten 48.3378° N, 10.9405° E zu finden:
 </p>
 
-<figure id="org064a1ff">
+<figure id="org278c1dc">
 <img src="earth.png" alt="earth.png" />
 
 </figure>
@@ -948,7 +996,7 @@ Der KMC is leicht bei den Koordinaten 48.3378° N, 10.9405° E zu finden:
 </div></div>
 <div id="postamble" class="status">
 <p class="author">Author: Dieter Schaab</p>
-<p class="date">Created: 2025-07-07 Mon 06:49</p>
+<p class="date">Created: 2025-07-28 Mon 19:02</p>
 </div>
 </body>
 </html>
