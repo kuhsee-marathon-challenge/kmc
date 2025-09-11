@@ -1,0 +1,38 @@
+* Notizen
+- url: https://kuhsee-marathon-challenge.github.io/kmc/
+
+- Race Results Anmeldung:
+  - 2025: https://my.raceresult.com/341874/registration
+
+** Tabelle
+Ich habe die folgenden Felder hinzugefügt (~Hauptfenster~ \to ~Teilnehmerdaten~ \to ~Zusatzfelder~):
+| Type     | Name             |                      |                                            |
+|----------+------------------+----------------------+--------------------------------------------|
+| Checkbox | Warteliste       | 0: normale Anmeldung | 1: Auf Warteliste                          |
+| Checkbox | MedailleBezahlt  | 0: offen             | 1: bezahlt                                 |
+| Datum    | MedailleErhalten | nicht erhalten       | Datum, an dem die Medaille übergeben wurde |
+| Checkbox | Absage           | 0: keine Absage      | 1: Absage durch Läufer                     |
+
+Im Menü ~Teilnehmer~ kann findet man nun bei den Teilnehmer unten ~INFORMATIONEN~ und dort Checkboxen bzw. Eingabemasgen für die neuen Felder.
+
+** Formulare
+Es gibt zwei Anmeldeformulare, für eine ~Einzel-Anmeldung~ bis 50 Teilnehmer und eine für die ~Wartelisten-Anmeldung~ bis 100 Teilnehmer (~Hauptfenster~ \to ~Anmelde-Formulare~).
+
+Bei der ~Wartelisten-Anmeldung~ wird unter ~Aktionen nach Speichern~ das Feld ~Warteliste~ automatisch auf ~1~ gesetzt.
+
+Unter ~my.raceresults.com~ \to ~Seite "Anmeldung"~ \to ~ANMELDE-FORMULARE~ kann die ~Wartelisten-Anmeldung~ hinzugefügt werden, sobald die maximale Teilnehmerzahl der ~Einzel-Anmeldung~ erreicht ist.
+
+** Ausgabe
+Über das Menü ~Ausgabe~ \to ~ONLINE~ findet man die Einstellungen für Online Tabellenübersichten.
+Man kann sich die Tabellenausgaben unter ~Ansicht~ anzeigen lassen oder herunterladen.
+- Unter ~Teilnehmer Kurz~ kann konfiguriert werden, welche Teilnehmer angezeigt werden.
+  Hier muss man die Felder ~Warteliste~ und ~Absage~ auf ~0~ prüfen.
+- Unter ~Warteliste Kurz~ findet man alle Teilnehmer, die in der Warteliste stehen.
+- Unter ~Absagen Kurz~ findet man alle abgesagten Teilnehmer.
+
+Mit dem Menü ~Ausgabe~ \to ~TEILNEHMERLISTEN~ \to ~Teilnehmerliste RB~ definiert man eine Abfrageliste, z.B. für Ruby.
+Dazu ist diese Liste unter ~Hauptfenster~ \to ~Zugriffsrechte/Freigabe~ \to ~FREIGABE (SIMPLEAPI)~ freigegeben als:
+- Typ: Liste
+- Details: Teilnehmerliste RB
+- JSON ext
+Mit einem Klick auf ~Link~ werden die JSON-Daten und der benötigte Link angezeigt.
