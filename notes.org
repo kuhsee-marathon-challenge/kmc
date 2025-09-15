@@ -30,9 +30,70 @@ Man kann sich die Tabellenausgaben unter ~Ansicht~ anzeigen lassen oder herunter
 - Unter ~Warteliste Kurz~ findet man alle Teilnehmer, die in der Warteliste stehen.
 - Unter ~Absagen Kurz~ findet man alle abgesagten Teilnehmer.
 
-Mit dem Menü ~Ausgabe~ \to ~TEILNEHMERLISTEN~ \to ~Teilnehmerliste RB~ definiert man eine Abfrageliste, z.B. für Ruby.
-Dazu ist diese Liste unter ~Hauptfenster~ \to ~Zugriffsrechte/Freigabe~ \to ~FREIGABE (SIMPLEAPI)~ freigegeben als:
-- Typ: Liste
-- Details: Teilnehmerliste RB
-- JSON ext
-Mit einem Klick auf ~Link~ werden die JSON-Daten und der benötigte Link angezeigt.
+Im Menü ~Ausgabe~ \to ~TEILNEHMERLISTEN~ sind folgende Ausgaben definiert:
+- ~Meldeliste ABC~: Alle gemeldeten Teilnehmer alphabetischer Reihenfolge.
+- ~Teilnehmerliste 123~: Alle Teilnehmer die nicht abgemeldet sind und nicht auf der Warteliste stehen in numerischer Reihenfolge.
+- ~Nicht-Teilnehmerliste 123~: Alle Teilnehmer die abgemeldet sind oder auf der Warteliste stehen in numerischer Reihenfolge.
+- ~Teilnehmerliste RB~: definiert eine Abfrageliste, z.B. für Ruby.
+  Dazu ist diese Liste unter ~Hauptfenster~ \to ~Zugriffsrechte/Freigabe~ \to ~FREIGABE (SIMPLEAPI)~ freigegeben als:
+  - Typ: Liste
+  - Details: Teilnehmerliste RB
+  - JSON ext
+  Mit einem Klick auf ~Link~ werden die JSON-Daten und der benötigte Link angezeigt.
+
+** Warteliste
+
+Die Teilnehmer mit eine BIB <= 50 hatten sich regulär angemeldet, ab BIB 51 über die Warteliste. Letztere haben das Feld ~Warteliste~ auf ~1~.
+
+Sobald ein Teilnehmer absagt wird das Feld ~Absage~ auf ~1~ gesetzt.
+
+Mit dem Skript ~nachruecken.rb~ kann ermittelt werden, wer als Ersatz übernommen werden kann:
+#+begin_src sh :exports result :results output
+ruby nachruecken.rb
+#+end_src
+
+#+RESULTS:
+#+begin_example
+Absagen:
+ BIB 32
+
+Nachgerückt:
+ BIB 51
+
+Warteliste:
+ BIB 52
+ BIB 53
+
+Keine Nachrücker möglich
+
+Gesamt Anmeldungen:     53
+   aktive Teilnehmer:   50
+   absagen:             1
+   Nachrücker:          1
+   auf Warteliste:      2
+   mögliche Nachrücker: 0
+#+end_example
+
+** Mail-Templates
+*** Abmeldung wegen Krankheit
+#+begin_example
+Hallo,
+
+vielen Dank für Deine Nachricht – sehr schade, dass Du dieses Jahr nicht dabei sein kannst! Wir haben Dich wie gewünscht aus der Teilnehmerliste ausgetragen.
+
+Für Deine Gesundheit wünschen wir Dir alles Gute und eine schnelle, vollständige Genesung. Wir würden uns sehr freuen, Dich 2026 wieder am Start zu sehen!
+
+Sportliche Grüße
+Dieter & Frank
+#+end_example
+*** Nachrückung
+#+begin_example
+Servus,
+
+gute Nachrichten: Du bist von der Warteliste in die Teilnehmerliste nachgerückt – willkommen bei der Kuhsee Marathon Challenge! 🎉
+
+Wir freuen uns sehr, dass Du dabei bist und wünschen Dir viel Spaß bei der Vorbereitung. Falls Du noch Fragen hast, melde Dich jederzeit gerne.
+
+Sportliche Grüße
+Frank
+#+end_example
