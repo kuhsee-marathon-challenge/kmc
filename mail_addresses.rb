@@ -1,7 +1,7 @@
 # frozen_string_literal: true
-# Gibt Teilnehmer aus, die aus der Warteliste nachrücken können.
+# Get mail addresses for all active and waitlist participants, usable so send bcc bulk mails.
 
-# ruby nachruecken.rb
+# ruby mail_addresses.rb
 
 require_relative 'fetch'
 
@@ -53,15 +53,8 @@ participants.each do |participant|
   end
 end
 
-show_list(active, 'Aktiv', 'Keine Anmeldungen')
-show_list(cancellations, 'Absagen', 'Keine Absagen')
-show_list(substitutes, 'Nachgerückt', 'Keine Nachrücker')
-show_list(waitlist, 'Warteliste', 'Keine Warteliste')
-show_list(newSubstitutes, 'Mögliche Nachrücker', 'Keine Nachrücker möglich')
+mails = active + waitlist
+mail_addresses = mails.map { |participant| participant['EMAIL'] }.join(',')
 
-puts "Gesamt Anmeldungen:     #{participants.count}"
-puts "   aktive Teilnehmer:   #{active.count}"
-puts "   absagen:             #{cancellations.count}"
-puts "   Nachrücker:          #{substitutes.count}"
-puts "   auf Warteliste:      #{waitlist.count}"
-puts "   mögliche Nachrücker: #{newSubstitutes.count}"
+puts "Found #{mails.length} participants (active or on waitlist)"
+puts "Mail addresses for bcc: #{mail_addresses}"
