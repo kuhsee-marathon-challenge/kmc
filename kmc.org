@@ -5,15 +5,6 @@
 #+DESCRIPTION: Kuhsee Marathon Challenge
 
 #+begin_comment
-Und der Herr sprach und sagte: Zuerst ziehe die heiligen Laufschuhe an.
-Sodann sollst Du Runden zählen bis 18, nicht mehr und nicht weniger.
-18 allein soll die Nummer sein, die Du zählest, und die Nummer, die Du zählest, soll 18 und nur 18 sein.
-Weder sollst Du bis 19 zählen, noch sollst Du nur bis zur 17 zählen, es sei denn, dass Du fortfährst zu zählen bis zur 18.
-Die 20 scheidet völlig aus.
-Wenn dann die Nummer 18, welches ist die 18. Nummer von vorne, erreicht ist, dann schleudere mit Kraft Deine heiligen Laufschuhe gegen Deinen Feind.
-#+end_comment
-
-#+begin_comment
 (org-export-to-file 'html "../gh-pages/index.html")
 #+end_comment
 
@@ -170,6 +161,15 @@ URL for participants counter can be creaded by:
 #+end_comment
 
 * Geschichte
+** Der 7. KMC
+{{{medalr(2024)}}}
+Und der Herr sprach und sagte: Zuerst ziehe die heiligen Laufschuhe an.
+Sodann sollst Du Runden zählen bis 18, nicht mehr und nicht weniger.
+18 allein soll die Nummer sein, die Du zählest, und die Nummer, die Du zählest, soll 18 und nur 18 sein.
+Weder sollst Du bis 19 zählen, noch sollst Du nur bis zur 17 zählen, es sei denn, dass Du fortfährst zu zählen bis zur 18.
+Die 20 scheidet völlig aus.
+Wenn dann die Nummer 18, welches ist die 18. Nummer von vorne, erreicht ist, dann schleudere mit Kraft Deine heiligen Laufschuhe gegen Deinen Feind.
+
 ** Der 6. KMC
 {{{medalr(2023)}}}
 Die sechste Edition der KMC am 10.12.2023... ein Großereignis der Superlative, stand unter dem Motto:
