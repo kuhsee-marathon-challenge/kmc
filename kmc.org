@@ -43,7 +43,7 @@ Colors:
 
 * Regeln
 Die grundlegenden Ideen der Kuhsee Marathon Challenge sind:
-- +es gibt keine Starterliste,+
+- es ist eine Privatveranstaltung,
 - es gibt kein Startgeld,
 - es gibt keinen ersten und keinen letzten Läufer,
 - es gibt keine Cut Offs und kein DNFs.
@@ -239,6 +239,7 @@ Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen üb
 {{{medal(2018)}}} {{{medal(2019)}}} {{{medal(2020)}}} {{{medal(2021)}}}
 #+end_center
 
+
 * Finisher
 #+name: finisher
 #+ATTR_HTML: :class styledtablelastrow
@@ -246,49 +247,78 @@ Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen üb
 #+ATTR_HTML: :rules all
 #+ATTR_HTML: :frame border
 #+ATTR_HTML: :width 100%
-| <l>          | <l>        | <c>  | <c>  | <c>  | <c>  | <c>  | <c>  |  <c>  |
-| Nachname     | Vorname    | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | Summe |
-|--------------+------------+------+------+------+------+------+------+-------|
-| Berger       | Charly     |      |      |      |      |  1   |  1   |   2   |
-| Bischoff     | Rainer     |      |      |  1   |      |      |      |   1   |
-| Ecker        | Fabian     |      |      |      |      |  1   |      |   1   |
-| Einmüller    | Peter      |      |      |      |  1   |  1   |  1   |   3   |
-| Gamperl      | Elisabeth  |      |      |      |      |      |  1   |   1   |
-| Grashei      | Alexandra  |      |      |      |  1   |      |  1   |   2   |
-| Grändorf     | Dennis     |  1   |      |  1   |      |      |      |   2   |
-| Hellmann     | Carsten    |      |  1   |  1   |  1   |      |      |   3   |
-| Jetzlsperger | Klaus      |      |      |      |      |      |  1   |   1   |
-| Joos         | Stehpan    |  1   |  1   |  1   |      |      |      |   3   |
-| Kaleja       | Yvonne     |      |      |      |      |  1   |  1   |   2   |
-| Kliem        | Manfred    |      |      |  1   |      |      |      |   1   |
-| Klinger      | Thomas     |      |      |      |      |      |  1   |   1   |
-| Machel       | Michael    |      |      |      |      |  1   |  1   |   2   |
-| Magg         | Christoph  |      |  1   |  1   |  1   |  1   |  1   |   5   |
-| Manhard      | Bernie     |      |      |      |      |      |  1   |   1   |
-| Mai          | Sybille    |      |      |  1   |      |      |      |   1   |
-| Mayr         | Richard    |      |      |      |      |      |  1   |   1   |
-| Mielke       | Marian     |      |      |  1   |  1   |  1   |      |   3   |
-| Mittomayer   | Bastian    |      |      |      |      |      |  1   |   1   |
-| Nagl         | Melanie    |      |      |      |      |      |  1   |   1   |
-| Naschilewski | Alexander  |      |      |      |      |      |  1   |   1   |
-| Neumann      | Conni      |      |      |      |      |      |  1   |   1   |
-| Penning      | Claudia    |      |      |      |  1   |      |      |   1   |
-| Pitsch       | Udo        |      |      |      |      |      |  1   |   1   |
-| Roland       | Frank      |      |      |  1   |  1   |  1   |  1   |   4   |
-| Rupprecht    | Michael    |      |      |      |      |  1   |  1   |   2   |
-| Safronov     | Kirill     |      |      |      |      |  1   |  1   |   2   |
-| Schaab       | Dieter     |  1   |  1   |  1   |  1   |  1   |  1   |   6   |
-| Schneider    | Stefan     |      |      |      |      |  1   |  1   |   2   |
-| Turzynski    | Michael    |      |      |      |      |      |  1   |   1   |
-| Utz          | Christian  |      |      |      |  1   |      |  1   |   2   |
-| Vogel        | Simon      |      |      |      |      |  1   |  1   |   2   |
-| Volk         | Peter      |      |      |      |      |  1   |      |   1   |
-| Waldow       | Maximilian |      |      |      |      |  1   |      |   1   |
-| Winkelmann   | Sven       |      |      |  1   |  1   |      |      |   2   |
-| Zischke      | Mathias    |      |      |      |      |      |  1   |   1   |
-| von Hofer    | Moritz     |      |  1   |  1   |      |      |      |   2   |
-|              |            |  3   |  5   |  12  |  10  |  15  |  25  |  70   |
-#+tblfm: @>$9..@>$>>=vsum(@<<<..@>>)::@<<<$9..@>>$9=vsum($3..$>>)
+| <l>          | <l>        | <c>  | <c>  | <c>  | <c>  | <c>  | <c>  | <c>  |  <c>  |
+| Nachname     | Vorname    | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | Summe |
+|--------------+------------+------+------+------+------+------+------+------+-------|
+| Baierl       | Andrea     |      |      |      |      |      |      |  1   |   1   |
+| Benkert      | Ralph      |      |      |      |      |      |      |  1   |   1   |
+| Berger       | Charly     |      |      |      |      |  1   |  1   |  1   |   3   |
+| Bicak        | Murat      |      |      |      |      |      |      |  1   |   1   |
+| Bischoff     | Rainer     |      |      |  1   |      |      |      |      |   1   |
+| Carpené      | Roberto    |      |      |      |      |      |      |  1   |   1   |
+| Claus        | Matthias   |      |      |      |      |      |      |  1   |   1   |
+| De La Rosa   | Daniel     |      |      |      |      |      |      |  1   |   1   |
+| Ecker        | Fabian     |      |      |      |      |  1   |      |      |   1   |
+| Einhellinger | Birgit     |      |      |      |      |      |      |  1   |   1   |
+| Einmüller    | Peter      |      |      |      |  1   |  1   |  1   |      |   3   |
+| Früh         | Bernd      |      |      |      |      |      |      |  1   |   1   |
+| Gamperl      | Elisabeth  |      |      |      |      |      |  1   |  1   |   2   |
+| Geier        | Jürgen     |      |      |      |      |      |      |  1   |   1   |
+| Grashei      | Alexandra  |      |      |      |  1   |      |  1   |  1   |   3   |
+| Grändorf     | Dennis     |  1   |      |  1   |      |      |      |      |   2   |
+| Grün         | Katrin     |      |      |      |      |      |      |  1   |   1   |
+| Hellmann     | Carsten    |      |  1   |  1   |  1   |      |      |      |   3   |
+| Hieber       | Benedikt   |      |      |      |      |      |      |  1   |   1   |
+| Höfl         | Philipp    |      |      |      |      |      |      |  1   |   1   |
+| Jetzlsperger | Klaus      |      |      |      |      |      |  1   |  1   |   2   |
+| Joos         | Stehpan    |  1   |  1   |  1   |      |      |      |      |   3   |
+| Kaleja       | Yvonne     |      |      |      |      |  1   |  1   |      |   2   |
+| Kandler      | Alexandra  |      |      |      |      |      |      |  1   |   1   |
+| Kliem        | Manfred    |      |      |  1   |      |      |      |      |   1   |
+| Klinger      | Thomas     |      |      |      |      |      |  1   |      |   1   |
+| Komander     | Dominik    |      |      |      |      |      |      |  1   |   1   |
+| Krauss       | Roland     |      |      |      |      |      |      |  1   |   1   |
+| Leister      | Johannes   |      |      |      |      |      |      |  1   |   1   |
+| Lenhard      | Iris       |      |      |      |      |      |      |  1   |   1   |
+| Lindel       | Claudius   |      |      |      |      |      |      |  1   |   1   |
+| Machel       | Michael    |      |      |      |      |  1   |  1   |      |   2   |
+| Magg         | Christoph  |      |  1   |  1   |  1   |  1   |  1   |  1   |   6   |
+| Mai          | Sybille    |      |      |  1   |      |      |      |      |   1   |
+| Manhard      | Bernie     |      |      |      |      |      |  1   |  1   |   2   |
+| Marcel       | Achzet     |      |      |      |      |      |      |  1   |   1   |
+| Mayr         | Richard    |      |      |      |      |      |  1   |      |   1   |
+| Meck         | Andreas    |      |      |      |      |      |      |  1   |   1   |
+| Merk         | Tobias     |      |      |      |      |      |      |  1   |   1   |
+| Mielke       | Marian     |      |      |  1   |  1   |  1   |      |      |   3   |
+| Mittomayer   | Bastian    |      |      |      |      |      |  1   |  1   |   2   |
+| Nagl         | Melanie    |      |      |      |      |      |  1   |      |   1   |
+| Naschilewski | Alexander  |      |      |      |      |      |  1   |      |   1   |
+| Neumann      | Conni      |      |      |      |      |      |  1   |      |   1   |
+| Penning      | Claudia    |      |      |      |  1   |      |      |      |   1   |
+| Pitsch       | Udo        |      |      |      |      |      |  1   |      |   1   |
+| Pohle        | Florian    |      |      |      |      |      |      |  1   |   1   |
+| Quaet-Faslem | Philipp    |      |      |      |      |      |      |  1   |   1   |
+| Roch         | Karl       |      |      |      |      |      |      |  1   |   1   |
+| Roland       | Frank      |      |      |  1   |  1   |  1   |  1   |  1   |   5   |
+| Rupprecht    | Michael    |      |      |      |      |  1   |  1   |  1   |   3   |
+| Rupprecht    | Sophie     |      |      |      |      |      |      |  1   |   1   |
+| Safronov     | Kirill     |      |      |      |      |  1   |  1   |  1   |   3   |
+| Schaab       | Dieter     |  1   |  1   |  1   |  1   |  1   |  1   |  1   |   7   |
+| Scheele      | Michael    |      |      |      |      |      |      |  1   |   1   |
+| Schneider    | Stefan     |      |      |      |      |  1   |  1   |  1   |   3   |
+| Siman        | Milan      |      |      |      |      |      |      |  1   |   1   |
+| Steinert     | Sven       |      |      |      |      |      |      |  1   |   1   |
+| Sämisch      | Mandy      |      |      |      |      |      |      |  1   |   1   |
+| Turzynski    | Michael    |      |      |      |      |      |  1   |  1   |   2   |
+| Utz          | Christian  |      |      |      |  1   |      |  1   |  1   |   3   |
+| Vogel        | Simon      |      |      |      |      |  1   |  1   |      |   2   |
+| Volk         | Peter      |      |      |      |      |  1   |      |      |   1   |
+| von Hofer    | Moritz     |      |  1   |  1   |      |      |      |      |   2   |
+| Waldow       | Maximilian |      |      |      |      |  1   |      |      |   1   |
+| Winkelmann   | Sven       |      |      |  1   |  1   |      |      |      |   2   |
+| Zischke      | Mathias    |      |      |      |      |      |  1   |      |   1   |
+|              |            |  3   |  5   |  12  |  10  |  15  |  25  |  43  |  113  |
+#+tblfm: @>$10..@>$>>=vsum(@<<<..@>>)::@<<<$10..@>>$10=vsum($3..$>>)
 
 #+HEADER: :cache yes
 #+HEADER: :exports none

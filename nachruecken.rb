@@ -11,7 +11,7 @@ participants = Fetch.new.participants
 
 def id(participant)
   if LONG_ID
-    "BIB #{participant['BIB']}:  #{participant['AnzeigeName']}"
+    "BIB #{participant['BIB']}: #{participant['AnzeigeName']}"
   else
     "BIB #{participant['BIB']}"
   end
@@ -33,6 +33,7 @@ cancellations = []
 waitlist = []
 substitutes = []
 newSubstitutes = []
+earlyBird = []
 participants.each do |participant|
   if participant['Absage'] == '1'
     cancellations << participant
@@ -51,6 +52,10 @@ participants.each do |participant|
       newSubstitutes << participant
     end
   end
+
+  if participant['Frühstarter'] == '1'
+    earlyBird << participant
+  end
 end
 
 show_list(active, 'Aktiv', 'Keine Anmeldungen')
@@ -58,6 +63,7 @@ show_list(cancellations, 'Absagen', 'Keine Absagen')
 show_list(substitutes, 'Nachgerückt', 'Keine Nachrücker')
 show_list(waitlist, 'Warteliste', 'Keine Warteliste')
 show_list(newSubstitutes, 'Mögliche Nachrücker', 'Keine Nachrücker möglich')
+show_list(earlyBird, 'Frühstarter', 'Keine Frühstarter')
 
 puts "Gesamt Anmeldungen:     #{participants.count}"
 puts "   aktive Teilnehmer:   #{active.count}"
@@ -65,3 +71,4 @@ puts "   absagen:             #{cancellations.count}"
 puts "   Nachrücker:          #{substitutes.count}"
 puts "   auf Warteliste:      #{waitlist.count}"
 puts "   mögliche Nachrücker: #{newSubstitutes.count}"
+puts "   Frühstarter:         #{earlyBird.count}"

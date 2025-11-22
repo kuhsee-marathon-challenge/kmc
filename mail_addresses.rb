@@ -53,8 +53,11 @@ participants.each do |participant|
   end
 end
 
-mails = active + waitlist
-mail_addresses = mails.map { |participant| participant['EMAIL'] }.join(',')
+mail_addresses_active = active.map { |participant| participant['EMAIL'] }.join(',')
+mail_addresses_waitlist = waitlist.map { |participant| participant['EMAIL'] }.join(',')
 
-puts "Found #{mails.length} participants (active or on waitlist)"
-puts "Mail addresses for bcc: #{mail_addresses}"
+puts "Found #{active.length} active participants"
+puts "Mail addresses for bcc: #{mail_addresses_active}"
+
+puts "Found #{waitlist.length} waiting participants"
+puts "Mail addresses for bcc: #{mail_addresses_waitlist}"
