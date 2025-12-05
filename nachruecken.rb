@@ -5,13 +5,13 @@
 
 require_relative 'fetch'
 
-LONG_ID = false
+LONG_ID = true
 
 participants = Fetch.new.participants
 
 def id(participant)
   if LONG_ID
-    "BIB #{participant['BIB']}: #{participant['AnzeigeName']}"
+    "BIB #{participant['BIB']}: #{participant['FLNAME']}"
   else
     "BIB #{participant['BIB']}"
   end
@@ -42,7 +42,9 @@ participants.each do |participant|
   else
     waitlist << participant
   end
+end
 
+participants.each do |participant|
   if participant['BIB'].to_i > MAX_PARTICIPANTS and participant['Absage'] == '0'
     # Everyone with a bib higher than MAX_PARTICIPANTS applied initially to the waitlist
     if participant['Warteliste'] == '0'

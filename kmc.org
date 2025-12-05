@@ -257,7 +257,6 @@ Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen üb
 | Bischoff     | Rainer     |      |      |  1   |      |      |      |      |   1   |
 | Carpené      | Roberto    |      |      |      |      |      |      |  1   |   1   |
 | Claus        | Matthias   |      |      |      |      |      |      |  1   |   1   |
-| De La Rosa   | Daniel     |      |      |      |      |      |      |  1   |   1   |
 | Ecker        | Fabian     |      |      |      |      |  1   |      |      |   1   |
 | Einhellinger | Birgit     |      |      |      |      |      |      |  1   |   1   |
 | Einmüller    | Peter      |      |      |      |  1   |  1   |  1   |      |   3   |
@@ -268,8 +267,6 @@ Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen üb
 | Grändorf     | Dennis     |  1   |      |  1   |      |      |      |      |   2   |
 | Grün         | Katrin     |      |      |      |      |      |      |  1   |   1   |
 | Hellmann     | Carsten    |      |  1   |  1   |  1   |      |      |      |   3   |
-| Hieber       | Benedikt   |      |      |      |      |      |      |  1   |   1   |
-| Höfl         | Philipp    |      |      |      |      |      |      |  1   |   1   |
 | Jetzlsperger | Klaus      |      |      |      |      |      |  1   |  1   |   2   |
 | Joos         | Stehpan    |  1   |  1   |  1   |      |      |      |      |   3   |
 | Kaleja       | Yvonne     |      |      |      |      |  1   |  1   |      |   2   |
@@ -287,7 +284,6 @@ Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen üb
 | Manhard      | Bernie     |      |      |      |      |      |  1   |  1   |   2   |
 | Marcel       | Achzet     |      |      |      |      |      |      |  1   |   1   |
 | Mayr         | Richard    |      |      |      |      |      |  1   |      |   1   |
-| Meck         | Andreas    |      |      |      |      |      |      |  1   |   1   |
 | Merk         | Tobias     |      |      |      |      |      |      |  1   |   1   |
 | Mielke       | Marian     |      |      |  1   |  1   |  1   |      |      |   3   |
 | Mittomayer   | Bastian    |      |      |      |      |      |  1   |  1   |   2   |
@@ -317,7 +313,7 @@ Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen üb
 | Waldow       | Maximilian |      |      |      |      |  1   |      |      |   1   |
 | Winkelmann   | Sven       |      |      |  1   |  1   |      |      |      |   2   |
 | Zischke      | Mathias    |      |      |      |      |      |  1   |      |   1   |
-|              |            |  3   |  5   |  12  |  10  |  15  |  25  |  43  |  113  |
+|              |            |  3   |  5   |  12  |  10  |  15  |  25  |  39  |  109  |
 #+tblfm: @>$10..@>$>>=vsum(@<<<..@>>)::@<<<$10..@>>$10=vsum($3..$>>)
 
 #+HEADER: :cache yes
