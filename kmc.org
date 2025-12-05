@@ -256,7 +256,6 @@ Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen üb
 | Beyer        | Simone     |      |      |      |      |      |      |      |  1   |   1   |
 | Bicak        | Murat      |      |      |      |      |      |      |  1   |      |   1   |
 | Bischoff     | Rainer     |      |      |  1   |      |      |      |      |      |   1   |
-| Bregenzer    | Luana      |      |      |      |      |      |      |      |      |   0   |
 | Carpené      | Roberto    |      |      |      |      |      |      |  1   |      |   1   |
 | Claudia      | Acosta     |      |      |      |      |      |      |      |  1   |   1   |
 | Claus        | Matthias   |      |      |      |      |      |      |  1   |  1   |   2   |
