@@ -327,7 +327,7 @@ Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen üb
 | Sommer       | Tom        |      |      |      |      |      |      |      |  1   |   1   |
 | Steinert     | Sven       |      |      |      |      |      |      |  1   |  1   |   2   |
 | Turzynski    | Michael    |      |      |      |      |      |  1   |  1   |      |   2   |
-| Utz          | Christian  |      |      |      |  1   |      |  1   |  1   |      |   3   |
+| Utz          | Christian  |      |      |      |  1   |      |  1   |  1   |  1   |   4   |
 | Vogel        | Simon      |      |      |      |      |  1   |  1   |      |      |   2   |
 | Volk         | Peter      |      |      |      |      |  1   |      |      |      |   1   |
 | von Hofer    | Moritz     |      |  1   |  1   |      |      |      |      |  1   |   3   |
@@ -336,7 +336,7 @@ Eigentlich stelle ich keine Fragen am Ende der Story, werde mich aber freuen üb
 | Wenzel       | Christoph  |      |      |      |      |      |      |      |  1   |   1   |
 | Winkelmann   | Sven       |      |      |  1   |  1   |      |      |      |      |   2   |
 | Zischke      | Mathias    |      |      |      |      |      |  1   |      |  1   |   2   |
-|              |            |  3   |  5   |  12  |  10  |  15  |  25  |  39  |  47  |  156  |
+|              |            |  3   |  5   |  12  |  10  |  15  |  25  |  39  |  48  |  157  |
 #+tblfm: @>$11..@>$>>=vsum(@<<<..@>>)::@<<<$11..@>>$11=vsum($3..$>>)
 
 #+HEADER: :cache yes
